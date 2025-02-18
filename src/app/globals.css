@@ -1,0 +1,94 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Footer.css */
+.get-in-touch, .company-section, .subscribe-section {
+  flex: 1;
+  margin: 0 20px;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+/* Why.css */
+
+.containerw {
+  background-color: #f8f9fa;
+  border: 1px solid #eaeaea;
+  border-radius: 8px;
+}
+
+.circle {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  position: relative;
+}
+
+.circle::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: 5px solid #e1e1e1;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+
+.marker {
+  font-size: 1.5rem; /* Adjust the size as needed */
+}
+
+.new-badge {
+  background-color: #FFD700; /* Gold color for the NEW! badge */
+  color: #ffffff; /* White text */
+  padding: 2px 5px; /* Padding around the text */
+  border-radius: 4px; /* Rounded corners */
+  font-weight: bold; /* Bold text */
+  margin-left: 5px; /* Space between text and badge */
+}
+
+.feature {
+  border: 2px solid #e2e8f0; /* Light gray border for features */
+}
+
+.feature:hover {
+  border-color: #63b3ed; /* Change border color on hover */
+  transition: border-color 0.3s;
+}
+
+/* testimonial */
+/* Custom CSS for further styling */
+.shadow-lg {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 640px) {
+  .max-w-lg {
+    max-width: 100%; 
+  }
+}
