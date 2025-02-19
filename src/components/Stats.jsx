@@ -8,7 +8,7 @@ const Stats = () => {
         <div className="text-center mb-10">
           <div className="flex justify-center items-center gap-2 mb-4">
             <div className="h-px w-12 bg-blue-600"></div>
-            <span className="text-blue-600 text-sm font-medium uppercase">Our Success</span>
+            <span className="text-sm font-medium uppercase heading">Our Success</span>
             <div className="h-px w-12 bg-blue-600"></div>
           </div>
           
@@ -25,26 +25,26 @@ const Stats = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 max-w-4xl mx-auto">
           {/* Satisfied Customers */}
           <div className="text-center">
-            <p className="text-blue-600 text-3xl font-bold mb-2">10K +</p>
-            <p className="text-gray-600 text-sm">Satisfied Customers</p>
+            <p style={{color:"var(--blue)"}} className="text-blue-600 text-3xl font-bold mb-2">10K +</p>
+            <p style={{color:"var(--blue)"}} className="text-gray-600 text-sm">Satisfied Customers</p>
           </div>
 
           {/* Destinations Covered */}
           <div className="text-center">
-            <p className="text-blue-600 text-3xl font-bold mb-2">500 +</p>
-            <p className="text-gray-600 text-sm">Destinations Covered</p>
+            <p style={{color:"var(--blue)"}} className="text-blue-600 text-3xl font-bold mb-2">500 +</p>
+            <p style={{color:"var(--blue)"}} className="text-gray-600 text-sm">Destinations Covered</p>
           </div>
 
           {/* Tours Completed */}
           <div className="text-center">
-            <p className="text-blue-600 text-3xl font-bold mb-2">2500 +</p>
-            <p className="text-gray-600 text-sm">Tours Completed</p>
+            <p style={{color:"var(--blue)"}} className="text-blue-600 text-3xl font-bold mb-2">2500 +</p>
+            <p style={{color:"var(--blue)"}} className="text-gray-600 text-sm">Tours Completed</p>
           </div>
 
           {/* Average Customer Rating */}
           <div className="text-center">
-            <p className="text-blue-600 text-3xl font-bold mb-2">4.8</p>
-            <p className="text-gray-600 text-sm">Average Customer Rating</p>
+            <p style={{color:"var(--blue)"}} className="text-blue-600 text-3xl font-bold mb-2">4.8</p>
+            <p style={{color:"var(--blue)"}} className="text-gray-600 text-sm">Average Customer Rating</p>
           </div>
         </div>
       </div>

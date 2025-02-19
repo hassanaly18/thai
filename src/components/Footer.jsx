@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <div className="bg-blue-700 py-8 text-white">
+    <div style={{backgroundColor:"var(--blue)"}} className=" py-8 text-white">
       <div className="container mx-auto flex justify-between">
         <div className="get-in-touch">
           <h2 className="text-xl font-bold">Get in Touch</h2>

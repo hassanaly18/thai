@@ -5,6 +5,8 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --blue: #312F93;
+  --yellow: #F8A603;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -16,8 +18,12 @@
 
 body {
   color: var(--foreground);
-  background: var(--background);
+  background: white;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.heading{
+  color: var(--blue);
 }
 
 /* Footer.css */
@@ -64,7 +70,7 @@ h2 {
 }
 
 .new-badge {
-  background-color: #FFD700; /* Gold color for the NEW! badge */
+  background-color: var(--yellow); /* Gold color for the NEW! badge */
   color: #ffffff; /* White text */
   padding: 2px 5px; /* Padding around the text */
   border-radius: 4px; /* Rounded corners */

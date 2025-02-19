@@ -1,0 +1,144 @@
+.testimonial-container {
+    margin: 0;
+    padding: 40px 20px;
+    background-color: white;
+  }
+  
+  .testimonial-header {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .testimonial-label {
+    color: var(--blue);
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  .testimonial-title {
+    font-size: 32px;
+    font-weight: 700;
+    color: #1f2937;
+    margin-bottom: 12px;
+  }
+  
+  .testimonial-subtitle {
+    color: #6b7280;
+    font-size: 16px;
+  }
+  
+  .testimonial-slider {
+    position: relative;
+    overflow: hidden;
+    padding: 20px 0;
+    max-width: 80%;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .testimonial-track {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    gap: 24px;
+    margin: 0 -12px;
+  }
+  
+  .testimonial-card {
+    min-width: calc(33.33% - 16px);
+    background: white;
+    border-radius: 8px;
+    padding: 24px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 0 12px;
+  }
+  
+  .testimonial-header-content {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+  
+  .testimonial-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 12px;
+  }
+  
+  .testimonial-name {
+    font-weight: 600;
+    color: #1f2937;
+  }
+  
+  .testimonial-content {
+    color: #4b5563;
+    line-height: 1.5;
+    margin-bottom: 16px;
+  }
+  
+  .testimonial-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .testimonial-stars {
+    display: flex;
+    gap: 2px;
+  }
+  
+  .star {
+    color: var(--yellow);
+    font-size: 20px;
+  }
+  
+  .testimonial-date {
+    color: #6b7280;
+    font-size: 14px;
+  }
+  
+  .nav-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: white;
+    border: 1px solid #e5e7eb;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    color: #4b5563;
+    transition: all 0.2s ease;
+    z-index: 10;
+  }
+  
+  .nav-button:hover {
+    background: #f9fafb;
+  }
+  
+  .nav-button.prev {
+    left: -20px;
+  }
+  
+  .nav-button.next {
+    right: -20px;
+  }
+  
+  /* Add smooth sliding animation */
+  @keyframes slide {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
