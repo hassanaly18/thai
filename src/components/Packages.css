@@ -136,10 +136,11 @@
     gap: 8px;
     font-size: 14px;
     color: #666;
+    border: none;
   }
   
   .icon {
-    font-size: 16px;
+    font-size:  1rem;
   }
   
   .view-details {
@@ -151,7 +152,7 @@
     border-radius: 4px;
     font-weight: 600;
     cursor: pointer;
-    transition: background-color 0.2s;
+    transition: background-color 0.3s;
   }
   
   .view-details:hover {

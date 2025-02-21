@@ -33,7 +33,7 @@ const WhyUs = () => {
     <div style={{color:"black", marginTop:"2rem", gap:"5rem"}} className="w-full max-w-6xl mx-auto p-8 bg-white flex flex-col md:flex-row gap-8 items-center">
       {/* Left Section with Image and Stats */}
       <div className="w-full md:w-2/5 relative">
-        <div className="relative bg-blue-700 rounded-full p-1">
+        <div style={{backgroundColor:"var(--blue)"}} className="relative rounded-full p-1">
           <img 
             src="/images/herobg.png"
             alt="Tourist with camera"
@@ -63,14 +63,14 @@ const WhyUs = () => {
       {/* Right Section with Content */}
       <div className="w-full md:w-3/5">
         <h2 className="text-2xl font-bold mb-6">
-          Why Choose <span className="text-blue-700">Destination to Paradise</span> for Your Next Adventure?
+          Why Choose <span style={{color:"var(--blue)"}}>Destination to Paradise</span> for Your Next Adventure?
         </h2>
         
         <div className="space-y-6">
           {benefits.map((benefit, index) => (
             <div key={index} className="flex gap-4">
               <div className="flex-shrink-0">
-                <div className="w-6 h-6 rounded-full bg-blue-700 flex items-center justify-center">
+                <div style={{backgroundColor:"var(--blue)"}} className="w-6 h-6 rounded-full flex items-center justify-center">
                   <svg className="w-4 h-4 text-white" viewBox="0 0 20 20" fill="currentColor">
                     <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                   </svg>
@@ -80,7 +80,7 @@ const WhyUs = () => {
                 <h3 className="font-semibold flex items-center gap-2">
                   {benefit.title}
                   {benefit.isNew && (
-                    <span className="text-xs bg-blue-100 text-blue-700 px-2 py-1 rounded">NEW!</span>
+                    <span style={{color:"var(--blue)"}} className="text-xs bg-blue-100  px-2 py-1 rounded">NEW!</span>
                   )}
                 </h3>
                 <p className="text-gray-600 mt-1">{benefit.description}</p>

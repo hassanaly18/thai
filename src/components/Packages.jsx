@@ -42,45 +42,6 @@ const packageData = [
   },
 ];
 
-// const Packages = () => {
-//   return (
-//     <div className="packages-container">
-//       <h2 className="expertise-title">OUR EXPERTISE</h2>
-//       <h1 className="packages-header">Discover Our Travel Packages</h1>
-//       <p className="packages-subtitle">
-//         Expertly Curated Journeys Designed to Inspire and Transform Your Next
-//         Travel Adventure
-//       </p>
-//       <div className="packages-card-wrapper">
-//         {packageData.map((pkg) => (
-//           <div className="card" key={pkg.id}>
-//             <div className="image-container">
-//               <img src={pkg.image} alt={pkg.title} className="card-image" />
-//               <div className="rating">
-//                 <span>{pkg.rating}</span>
-//               </div>
-//             </div>
-//             <div className="card-content">
-//               <h3 className="title">{pkg.title}</h3>
-//               <p className="price">{pkg.price}</p>
-//               <div className="features">
-//                 {pkg.features.map((feature, index) => (
-//                   <div className="feature" key={index}>
-//                     <span className="icon">{feature.icon}</span>
-//                     <span className="text">{feature.text}</span>
-//                   </div>
-//                 ))}
-//               </div>
-//               <button className="view-details">VIEW DETAILS</button>
-//             </div>
-//           </div>
-//         ))}
-//       </div>
-//     </div>
-//   );
-// };
-
-
 const Packages = () => {
     useEffect(() => {
       const slider = document.querySelector('.packages-card-wrapper');
@@ -137,7 +98,7 @@ const Packages = () => {
   
     return (
       <div className="packages-container">
-        <h2 className="expertise-title">OUR EXPERTISE</h2>
+        <h2 className="expertise-title heading">OUR EXPERTISE</h2>
         <h1 className="packages-header">Discover Our Travel Packages</h1>
         <p className="packages-subtitle">
           Expertly Curated Journeys Designed to Inspire and Transform Your Next
