@@ -26,6 +26,17 @@ body {
   color: var(--blue);
 }
 
+/* .logo{
+  margin-top: 1.5rem;
+  width: 35vh;
+  position: absolute;
+}
+
+.logoImg{
+  width: 35vh; 
+  position: absolute;
+} */
+
 /* Footer.css */
 .get-in-touch, .company-section, .subscribe-section {
   flex: 1;
