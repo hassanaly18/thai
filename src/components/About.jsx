@@ -126,7 +126,7 @@ const About = () => {
                     <div className="relative flex items-center justify-center h-96">
                         {/* First image - back left (lowest) */}
                         <div className="w-1/2 absolute transform -translate-x-16 translate-y-14 transition-all duration-500 hover:-translate-y-2">
-                            <div className="aspect-square relative overflow-hidden rounded-lg shadow-xl">
+                            <div className="aspect-square relative overflow-hidden shadow-xl">
                                 <img 
                                     src="\images\herobg.png" 
                                     alt="Travel Scene 1" 
@@ -137,7 +137,7 @@ const About = () => {
                         
                         {/* Second image - back right (middle height) */}
                         <div className="w-1/2 absolute z-10 transform translate-x-16 translate-y-8 transition-all duration-500 hover:-translate-y-2">
-                            <div className="aspect-square relative overflow-hidden rounded-lg shadow-xl">
+                            <div className="aspect-square relative overflow-hidden  shadow-xl">
                                 <img 
                                     src="\images\herobg.png" 
                                     alt="Travel Scene 2" 
@@ -148,7 +148,7 @@ const About = () => {
                         
                         {/* Third image - front center (highest) */}
                         <div className="w-1/2 absolute z-20 transform -translate-y-4 transition-all duration-500 hover:-translate-y-6">
-                            <div className="aspect-square relative overflow-hidden rounded-lg shadow-xl">
+                            <div className="aspect-square relative overflow-hidden  shadow-xl">
                                 <img 
                                     src="\images\herobg.png" 
                                     alt="Travel Scene 3" 

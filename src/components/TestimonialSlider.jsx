@@ -61,14 +61,27 @@ const TestimonialSlider = () => {
   return (
     <div className="testimonial-container">
       <div className="testimonial-header">
-        <span className="testimonial-label">TESTIMONIAL</span>
+        {/* <span className="testimonial-label">TESTIMONIAL</span> */}
+        <div className="flex justify-center items-center gap-2 mb-4">
+          <div className="h-px w-16 bg-[#312F93]"></div>
+          <span className="text-l font-bold uppercase heading">
+            testimonials
+          </span>
+          <div className="h-px w-16 bg-[#312F93]"></div>
+        </div>
         <h2 className="testimonial-title">What Our Travelers Say</h2>
         <p className="testimonial-subtitle">
           Discover the Unforgettable Experiences Our Travelers Share
         </p>
       </div>
 
-      <div style={{display:"flex", alignItems:"center", justifyContent:"center"}}>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+        }}
+      >
         <div className="testimonial-slider">
           <div
             className="testimonial-track"

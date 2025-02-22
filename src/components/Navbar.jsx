@@ -157,7 +157,7 @@ const Navbar = () => {
                 key={item.path} 
                 href={item.path} 
                 className={`relative group text-gray-700 hover:text-[#312F93] ${
-                  pathname === item.path ? 'font-semibold text[#312F93]' : ''
+                  pathname === item.path ? 'font-semibold text-[#312F93]' : ''
                 }`}
               >
                 {item.name}
