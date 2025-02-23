@@ -8,7 +8,7 @@ const packageData = [
     id: 1,
     title: "Phuket Island Escape",
     price: "£697 per person",
-    image: "/images/herobg.png",
+    image: "/images/bg1.jpg",
     rating: "★★★★",
     features: [
       { icon: "✈️", text: "Round trip economy class included" },
@@ -20,7 +20,7 @@ const packageData = [
     id: 2,
     title: "Bali Adventure",
     price: "£799 per person",
-    image: "/images/herobg.png",
+    image: "/images/bg2.jpg",
     rating: "★★★★★",
     features: [
       { icon: "✈️", text: "Round trip economy class included" },
@@ -32,7 +32,7 @@ const packageData = [
     id: 3,
     title: "Maldives Luxury Retreat",
     price: "£1200 per person",
-    image: "/images/herobg.png",
+    image: "/images/beach2.jpg",
     rating: "★★★★★",
     features: [
       { icon: "✈️", text: "Business class flights included" },

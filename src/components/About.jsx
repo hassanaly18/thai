@@ -128,7 +128,7 @@ const About = () => {
                         <div className="w-1/2 absolute transform -translate-x-16 translate-y-14 transition-all duration-500 hover:-translate-y-2">
                             <div className="aspect-square relative overflow-hidden shadow-xl">
                                 <img 
-                                    src="\images\herobg.png" 
+                                    src="\images\beach1.jpg" 
                                     alt="Travel Scene 1" 
                                     className="w-full h-full object-cover"
                                 />
@@ -139,7 +139,7 @@ const About = () => {
                         <div className="w-1/2 absolute z-10 transform translate-x-16 translate-y-8 transition-all duration-500 hover:-translate-y-2">
                             <div className="aspect-square relative overflow-hidden  shadow-xl">
                                 <img 
-                                    src="\images\herobg.png" 
+                                    src="\images\bg1.jpg" 
                                     alt="Travel Scene 2" 
                                     className="w-full h-full object-cover"
                                 />
@@ -150,7 +150,7 @@ const About = () => {
                         <div className="w-1/2 absolute z-20 transform -translate-y-4 transition-all duration-500 hover:-translate-y-6">
                             <div className="aspect-square relative overflow-hidden  shadow-xl">
                                 <img 
-                                    src="\images\herobg.png" 
+                                    src="\images\bg2.jpg" 
                                     alt="Travel Scene 3" 
                                     className="w-full h-full object-cover"
                                 />
