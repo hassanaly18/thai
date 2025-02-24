@@ -23,7 +23,7 @@ const Footer = () => {
           </ul>
         </div>
 
-        <div className="subscribe-section">
+        {/* <div className="subscribe-section">
           <h2 className="text-xl font-bold">Subscribe to Newsletter</h2>
           <div className="mt-4 flex items-center">
             <input 
@@ -33,7 +33,7 @@ const Footer = () => {
             />
             <button className="bg-orange-500 p-2 rounded-r">Subscribe</button>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
