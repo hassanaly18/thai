@@ -109,3 +109,15 @@ h2 {
     max-width: 100%; 
   }
 }
+
+/* Card hover animation */
+
+.perspective {
+  perspective: 1000px;
+}
+.transform-style-preserve {
+  transform-style: preserve-3d;
+}
+.backface-hidden {
+  backface-visibility: hidden;
+}
