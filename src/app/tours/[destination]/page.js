@@ -4,6 +4,15 @@ import TourDetail from "@/components/TourDetail";
 import Highlights from "@/components/Highlights";
 import { notFound } from 'next/navigation';
 
+export async function generateMetadata({ params }) {
+  const destination = params.destination.charAt(0).toUpperCase() + params.destination.slice(1); // Capitalize
+
+  return {
+    title: `${destination} Tour Packages – Best ${destination} Travel Deals`,
+    description: `Discover the best ${destination} tour packages with Destination To Paradise! Explore beaches, nightlife, and adventure. Book your trip now!`,
+  };
+}
+
 // This data array stores all your tour information
 const toursData = [
   {

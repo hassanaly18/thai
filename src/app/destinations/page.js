@@ -3,6 +3,12 @@ import Image from "next/image";
 import TourList from "@/components/TourList";
 import DestCards from "@/components/DestCards";
 
+export const metadata = {
+  title: "Top Travel Destinations | Explore Thailand, Singapore & More",
+  description:
+    "Discover the best travel destinations with Destination To Paradise! Explore Thailand, Singapore, Malaysia, Pakistan, Bali, and Vietnam with our custom tours.",
+};
+
 export default function Destinations() {
 
   const destinationData = [

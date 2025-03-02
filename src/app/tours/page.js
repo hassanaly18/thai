@@ -2,6 +2,12 @@ import Link from "next/link";
 import Image from "next/image";
 import TourList from "@/components/TourList";
 
+export const metadata = {
+  title: "Best Thailand Tours & Vacation Packages | Destination To Paradise",
+  description:
+    "Explore the best Thailand tours! From Bangkok to Phuket, Pattaya to Krabi, book luxury & budget-friendly travel packages. Customize your dream trip today!",
+};
+
 export default function Tours() {
   const tourData = [
     {

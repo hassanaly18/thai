@@ -11,7 +11,14 @@ import Why from "@/components/Why";
 import WhyUs from "@/components/WhyUs";
 import Image from "next/image";
 
+export const metadata = {
+  title: "Thailand Tour Packages | Best Travel Agency in Bangkok",
+  description:
+    "Plan your dream vacation with Destination To Paradise! We offer the best Thailand tour packages to Phuket, Krabi, Pattaya & more. Book now!",
+};
+
 export default function Home() {
+  
   return (
     <>
     <HeroSection/>

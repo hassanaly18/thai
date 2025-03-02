@@ -4,6 +4,12 @@ import Journey from "@/components/Journey";
 import Mission from "@/components/Mission";
 import Future from "@/components/Future";
 
+export const metadata = {
+  title: "About Us | Destination To Paradise – Thailand Travel Experts",
+  description:
+    "Learn about Destination To Paradise, a top-rated travel agency in Bangkok offering custom tours to Thailand, Singapore, Malaysia, Vietnam, and beyond.",
+};
+
 export default function Tours() {
 
   return (

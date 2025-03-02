@@ -3,6 +3,12 @@ import Image from "next/image";
 import ContactInfo from "@/components/ContactInfo";
 import ContactForm from "@/components/ContactForm";
 
+export const metadata = {
+  title: "Contact Us | Destination To Paradise – Thailand Travel Experts",
+  description:
+    "Have questions? Contact Destination To Paradise, the best travel agency in Thailand! Plan your next adventure with our experts today.",
+};
+
 export default function Contact() {
   return (
     <main className="min-h-screen bg-gray-100 mb-12">
