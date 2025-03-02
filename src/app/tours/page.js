@@ -15,7 +15,7 @@ export default function Tours() {
       title: "Explore Thailand with the Paradise Escape Package",
       description: `Experience the best of Thailand with our Paradise Escape Package. Enjoy comfortable stays, daily breakfasts, exciting tours, and private transfers. Perfect for romantic getaways, family vacations, or corporate events. Contact us today to plan your dream trip!`,
       price: 85,
-      image: "/images/bg1.jpg",
+      image: "/images/tour11.jpg",
       slug: "thailand-paradise-escape",
     },
     {

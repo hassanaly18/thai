@@ -5,11 +5,8 @@ import HeroSection from "@/components/HeroSection";
 import Packages from "@/components/Packages";
 import Services from "@/components/Services";
 import Stats from "@/components/Stats";
-import Testimonial from "@/components/Testimonial";
 import TestimonialSlider from "@/components/TestimonialSlider";
-import Why from "@/components/Why";
 import WhyUs from "@/components/WhyUs";
-import Image from "next/image";
 
 export const metadata = {
   title: "Thailand Tour Packages | Best Travel Agency in Bangkok",

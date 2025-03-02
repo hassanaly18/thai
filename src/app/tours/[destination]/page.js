@@ -20,7 +20,7 @@ const toursData = [
     title: "Explore Thailand with the Paradise Escape Package",
     rating: 4.8,
     reviews: 86,
-    mainImage: "/images/bg1.jpg",
+    mainImage: "/images/tour11.jpg",
     country: "Thailand",
     duration: 3,
     season: "Year Round",
@@ -29,7 +29,7 @@ const toursData = [
     price: 85,
     departureLocation: "International Airport",
     destinationLocation: "Pattaya & Bangkok, Thailand",
-    images: ["/images/bg1.jpg", "/images/beach1.jpg"],
+    images: ["/images/tour11.jpg", "/images/tour12.jpg", "/images/tour13.jpg", "/images/tour14.jpg"],
     highlightsData: {
       mapImage: "/images/thailand-map.jpg",
       included: [

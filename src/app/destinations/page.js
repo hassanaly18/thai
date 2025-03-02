@@ -15,37 +15,37 @@ export default function Destinations() {
     {
       name: "Thailand",
       slug: "thailand",
-      image: "/images/bg1.jpg", // Update with your actual image path
+      image: "/images/thailand.png", // Update with your actual image path
       description: "Famous for its opulent temples, rich cuisine and bustling markets, Thailand offers a truly cultural experience."
     },
     {
       name: "Singapore",
       slug: "singapore",
-      image: "/images/bg2.jpg", // Update with your actual image path
+      image: "/images/singapore.png", // Update with your actual image path
       description: "Singapore combines a futuristic skyline with multicultural urban districts and lush green spaces."
     },
     {
       name: "Malaysia",
       slug: "malaysia",
-      image: "/images/bg2.jpg", // Update with your actual image path
+      image: "/images/malaysia.png", // Update with your actual image path
       description: "A melting pot of cultures, Malaysia offers everything from the urban elegance of Kuala Lumpur to the pristine beaches of Langkawi."
     },
     {
       name: "Pakistan",
       slug: "pakistan",
-      image: "/images/bg1.jpg", // Update with your actual image path
+      image: "/images/pakistan.png", // Update with your actual image path
       description: "From the towering peaks of the Karakoram to the rich cultural heritage of its cities, Pakistan is a land of daring adventure."
     },
     {
       name: "Vietnam",
       slug: "vietnam",
-      image: "/images/bg1.jpg", // Update with your actual image path
+      image: "/images/vietnam.jpg", // Update with your actual image path
       description: "Vietnam is a tapestry of vibrant city life, colonial landmarks, and stunning natural landscapes."
     },
     {
       name: "Bali",
       slug: "bali",
-      image: "/images/bg2.jpg", // Update with your actual image path
+      image: "/images/bali.jpg", // Update with your actual image path
       description: "Known for its forested volcanic mountains and iconic rice paddies, Bali is a spiritual and natural haven."
     },
   ];
