@@ -23,7 +23,7 @@ export default function Tours() {
       title: "Discover Thailand with the Cultural Adventure Package",
       description:`Experience the wonders of Thailand with our Cultural Adventure Package. Enjoy a comfortable stay in Bangkok, daily breakfasts, and exciting full-day tours, including visits to Kanchanaburi and the floating market. Private airport transfers ensure a hassle-free journey. Contact us today to start your adventure!`,
       price: 130,
-      image: "/images/bg2.jpg",
+      image: "/images/tour21.jpg",
       slug: "thailand-cultural-adventure",
     },
     {
@@ -31,7 +31,7 @@ export default function Tours() {
       title: "Thailand Ultimate Getaway Package",
       description:`Discover the beauty of Thailand with our Ultimate Getaway Package. Enjoy 5 days and 4 nights with comfortable stays in Pattaya and Bangkok, daily breakfasts, and exciting tours, including Coral Island and Bangkok city explorations. All transfers are conveniently arranged. Contact us today to plan your perfect escape!`,
       price: 95,
-      image: "/images/beach1.jpg",
+      image: "/images/tour23.jpg",
       slug: "thailand-ultimate-getaway",
     },
     {
@@ -39,7 +39,7 @@ export default function Tours() {
       title: "Thailand Enchanting Explorer Package",
       description:`Experience the charm of Thailand with our Enchanting Explorer Package. Enjoy 4 days and 3 nights in Pratunam with daily breakfasts, and explore top attractions like Nong-Nooch Garden, Big Buddha Viewpoint, and the Floating Market. Book now for an unforgettable adventure!`,
       price: 165,
-      image: "/images/beach1.jpg",
+      image: "/images/tour41.jpg",
       slug: "thailand-enchanting-explorer",
     },
     {
@@ -47,7 +47,7 @@ export default function Tours() {
       title: "Asia Tri-City Adventure Package",
       description:`Discover the best of Singapore, Malaysia, and Thailand with our Tri-City Adventure Package. Enjoy 6 nights and 7 days of comfortable stays, daily breakfasts, and exciting city tours in Singapore, Kuala Lumpur, and Bangkok. Private airport transfers and intercity travel are included. Book now for an unforgettable journey!`,
       price: 89,
-      image: "/images/beach1.jpg",
+      image: "/images/tour51.jpg",
       slug: "asia-tri-city-adventure",
     },
     {
@@ -55,7 +55,7 @@ export default function Tours() {
       title: "Ayutthaya Day Explorer Package",
       description:`Uncover the rich history of Thailand with our Ayutthaya Day Explorer Package. Visit iconic landmarks like Bang Pa-In Palace, Wat Mahathat, and Wat Chaiwatthanaram, with guided tours and authentic Thai lunch included. Enjoy a seamless experience with hotel pick-up and drop-off. Book now for an unforgettable cultural journey!`,
       price: 95,
-      image: "/images/beach1.jpg",
+      image: "/images/tour61.jpg",
       slug: "ayutthaya-day-explorer",
     },
     {
@@ -63,7 +63,7 @@ export default function Tours() {
       title: "7 Island Sunset Adventure",
       description:`Experience the beauty of Krabi with our 7 Island Sunset Adventure. Visit stunning islands like Tup, Chicken, and Poda, snorkel in crystal-clear waters, and witness magical bioluminescent plankton. End the day with a breathtaking sunset. Book now for an unforgettable island-hopping experience!`,
       price: 95,
-      image: "/images/beach1.jpg",
+      image: "/images/tour71.jpg",
       slug: "island-sunset-adventure",
     },
     {
@@ -71,7 +71,7 @@ export default function Tours() {
       title: "Phi Phi Island Escape Tour",
       description:`Experience the beauty of Phi Phi Islands with our Phi Phi Island Escape. Relax on Bamboo Island's white sands, explore Viking Cave, and snorkel in crystal-clear waters at Nui Bay. Enjoy a beachfront buffet lunch and visit iconic spots like Maya Bay and Monkey Bay. Book now for an unforgettable island adventure!`,
       price: 95,
-      image: "/images/beach1.jpg",
+      image: "/images/tour81.jpg",
       slug: "phi-phi-island-escape",
     },
     {
@@ -79,7 +79,7 @@ export default function Tours() {
       title: "Four Island Adventure Tour",
       description:`Discover Krabi's stunning beaches with our Four Island Adventure. Visit iconic spots like Chicken Island, Poda Island, Talay Waek, and Pranang Cave Bay. Swim, snorkel, and relax on beautiful sandy beaches. Book now for an unforgettable day trip!`,
       price: 95,
-      image: "/images/beach1.jpg",
+      image: "/images/tour91.jpg",
       slug: "four-island-adventure",
     },
     {
@@ -87,7 +87,7 @@ export default function Tours() {
       title: "James Bond Island Tour",
       description:`Explore the famous James Bond Island with our James Bond Island Tour. Visit Monkey Cave, enjoy sea cave canoeing at Talu Island, and explore Phang-Nga Bay's stunning landscapes. Enjoy a scenic boat ride and lunch at a floating Muslim village. Book now for an unforgettable adventure!`,
       price: 95,
-      image: "/images/beach1.jpg",
+      image: "/images/tour101.jpg",
       slug: "james-bond-island-tour",
     },
   ];

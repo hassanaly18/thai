@@ -59,7 +59,7 @@ const toursData = [
     title: "Discover Thailand with the Cultural Adventure Package",
     rating: 4.6,
     reviews: 52,
-    mainImage: "/images/bg2.jpg",
+    mainImage: "/images/tour21.jpg",
     country: "Thailand",
     duration: 3,
     season: "October - April",
@@ -68,7 +68,7 @@ const toursData = [
     price: 130,
     departureLocation: "International Airport",
     destinationLocation: "Bangkok, Thailand",
-    images: ["/images/bg2.jpg", "/images/beach1.jpg"],
+    images: ["/images/tour22.jpg", "/images/tour23.jpg", "/images/tour24.jpg"],
     highlightsData: {
       mapImage: "/images/thailand-map.jpg",
       included: [
@@ -97,7 +97,7 @@ const toursData = [
     title: "Thailand Ultimate Getaway Package",
     rating: 4.7,
     reviews: 63,
-    mainImage: "/images/beach1.jpg",
+    mainImage: "/images/tour23.jpg",
     country: "Thailand",
     duration: 5,
     season: "Year Round",
@@ -106,7 +106,7 @@ const toursData = [
     price: 95,
     departureLocation: "International Airport",
     destinationLocation: "Pattaya & Bangkok, Thailand",
-    images: ["/images/beach1.jpg", "/images/bg1.jpg"],
+    images: ["/images/tour21.jpg", "/images/tour24.jpg", "/images/tour13.jpg"],
     highlightsData: {
       mapImage: "/images/thailand-map.jpg",
       included: [
@@ -137,7 +137,7 @@ const toursData = [
     title: "Thailand Enchanting Explorer Package",
     rating: 4.5,
     reviews: 48,
-    mainImage: "/images/beach1.jpg",
+    mainImage: "/images/tour41.jpg",
     country: "Thailand",
     duration: 4,
     season: "Year Round",
@@ -146,7 +146,7 @@ const toursData = [
     price: 165,
     departureLocation: "International Airport",
     destinationLocation: "Pratunam, Thailand",
-    images: ["/images/beach1.jpg", "/images/bg2.jpg"],
+    images: ["/images/tour42.jpg", "/images/tour43.jpg", "/images/tour44.jpg"],
     highlightsData: {
       mapImage: "/images/thailand-map.jpg",
       included: [
@@ -175,7 +175,7 @@ const toursData = [
     title: "Asia Tri-City Adventure Package",
     rating: 4.9,
     reviews: 72,
-    mainImage: "/images/beach1.jpg",
+    mainImage: "/images/tour51.jpg",
     country: "Multiple",
     duration: 7,
     season: "Year Round",
@@ -184,7 +184,7 @@ const toursData = [
     price: 429,
     departureLocation: "Singapore",
     destinationLocation: "Singapore, Malaysia & Thailand",
-    images: ["/images/beach1.jpg", "/images/bg1.jpg"],
+    images: ["/images/tour52.jpg", "/images/tour53.jpg", "/images/tour54.jpg"],
     highlightsData: {
       mapImage: "/images/thailand-map.jpg",
       included: [
@@ -217,7 +217,7 @@ const toursData = [
     title: "Ayutthaya Day Explorer Package",
     rating: 4.7,
     reviews: 95,
-    mainImage: "/images/beach1.jpg",
+    mainImage: "/images/tour61.jpg",
     country: "Thailand",
     duration: 1,
     season: "Year Round",
@@ -226,7 +226,7 @@ const toursData = [
     price: 95,
     departureLocation: "Bangkok",
     destinationLocation: "Ayutthaya, Thailand",
-    images: ["/images/beach1.jpg", "/images/bg2.jpg"],
+    images: ["/images/tour62.jpg", "/images/tour63.jpg", "/images/tour64.jpg"],
     highlightsData: {
       mapImage: "/images/thailand-map.jpg",
       included: [
@@ -254,7 +254,7 @@ const toursData = [
     title: "7 Island Sunset Adventure",
     rating: 4.8,
     reviews: 126,
-    mainImage: "/images/beach1.jpg",
+    mainImage: "/images/tour71.jpg",
     country: "Thailand",
     duration: 1,
     season: "October - April",
@@ -263,7 +263,7 @@ const toursData = [
     price: 95,
     departureLocation: "Krabi",
     destinationLocation: "Krabi Islands, Thailand",
-    images: ["/images/beach1.jpg", "/images/bg1.jpg"],
+    images: ["/images/tour72.jpg", "/images/tour73.jpg", "/images/tour74.jpg"],
     highlightsData: {
       mapImage: "/images/thailand-map.jpg",
       included: [
@@ -293,7 +293,7 @@ const toursData = [
     title: "Phi Phi Island Escape Tour",
     rating: 4.9,
     reviews: 158,
-    mainImage: "/images/beach1.jpg",
+    mainImage: "/images/tour81.jpg",
     country: "Thailand",
     duration: 1,
     season: "November - April",
@@ -302,7 +302,7 @@ const toursData = [
     price: 95,
     departureLocation: "Krabi",
     destinationLocation: "Phi Phi Islands, Thailand",
-    images: ["/images/beach1.jpg", "/images/bg2.jpg"],
+    images: ["/images/tour82.jpg", "/images/tour83.jpg", "/images/tour84.jpg"],
     highlightsData: {
       mapImage: "/images/thailand-map.jpg",
       included: [
@@ -332,7 +332,7 @@ const toursData = [
     title: "Four Island Adventure Tour",
     rating: 4.6,
     reviews: 103,
-    mainImage: "/images/beach1.jpg",
+    mainImage: "/images/tour91.jpg",
     country: "Thailand",
     duration: 1,
     season: "November - April",
@@ -341,7 +341,7 @@ const toursData = [
     price: 95,
     departureLocation: "Krabi",
     destinationLocation: "Krabi Islands, Thailand",
-    images: ["/images/beach1.jpg", "/images/bg1.jpg"],
+    images: ["/images/tour92.jpg", "/images/tour93.jpg", "/images/tour94.jpg"],
     highlightsData: {
       mapImage: "/images/thailand-map.jpg",
       included: [
@@ -371,7 +371,7 @@ const toursData = [
     title: "James Bond Island Tour",
     rating: 4.7,
     reviews: 142,
-    mainImage: "/images/beach1.jpg",
+    mainImage: "/images/tour101.jpg",
     country: "Thailand",
     duration: 1,
     season: "Year Round",
@@ -380,7 +380,7 @@ const toursData = [
     price: 95,
     departureLocation: "Phuket",
     destinationLocation: "Phang Nga Bay, Thailand",
-    images: ["/images/beach1.jpg", "/images/bg2.jpg"],
+    images: ["/images/tour102.jpg", "/images/tour103.jpg", "/images/tour104.jpg"],
     highlightsData: {
       mapImage: "/images/thailand-map.jpg",
       included: [
