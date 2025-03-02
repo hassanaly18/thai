@@ -195,3 +195,408 @@
   }
   
   /* Keep all your existing styles for other elements */
+
+
+  .packages-container {
+    padding: 20px;
+    text-align: center;
+    background-color: white;
+}
+
+.expertise-title {
+    font-size: 1.5em;
+    color: black;
+}
+
+.packages-header {
+    font-size: 2.5em;
+    color: black;
+}
+
+.packages-subtitle {
+    margin-bottom: 20px;
+    color: black;
+}
+
+.package-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    width: 30%;
+    text-align: left;
+}
+
+.package-image {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.rating {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: var(--yellow);
+}
+
+.package-title {
+    font-size: 1.3em;
+    margin: 15px 0;
+    color: black;
+}
+
+.package-price {
+    font-size: 1.2em;
+    color: #4A4A4A;
+    color: black;
+}
+
+.package-details {
+    list-style: none;
+    padding: 0;
+    color: black;
+}
+
+.view-details-btn {
+    background-color: var(--blue);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.card {
+    width: 280px;
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    flex: 0 0 auto;
+}
+
+.image-container {
+    position: relative;
+    width: 100%;
+    height: 160px;
+}
+
+.card-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.rating {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    background: var(--blue);
+    color: var(--yellow);
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.card-content {
+    padding: 16px;
+}
+
+.title {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+    font-weight: 600;
+}
+
+.price {
+    margin: 8px 0 16px;
+    font-size: 20px;
+    color: var(--blue);
+    font-weight: 600;
+}
+
+.features {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 16px;
+}
+
+.feature {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+    color: #666;
+    border: none;
+}
+
+.icon {
+    font-size: 1rem;
+}
+
+.view-details {
+    width: 100%;
+    background: var(--blue);
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 4px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.view-details:hover {
+    background: #1e1e52;
+}
+
+/* Updated slider styles */
+.slider-container {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    padding: 20px 0;
+}
+
+.packages-slider-viewport {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.packages-card-wrapper {
+    display: flex;
+    gap: 24px;
+    cursor: grab;
+    user-select: none;
+    padding: 20px;
+    will-change: transform;
+}
+
+.packages-card-wrapper.active {
+    cursor: grabbing;
+    cursor: -webkit-grabbing;
+    transition: none !important;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1023px) {
+    .packages-header {
+        font-size: 2em;
+    }
+}
+
+@media (max-width: 639px) {
+    .packages-header {
+        font-size: 1.5em;
+    }
+    
+    .packages-subtitle {
+        font-size: 0.9em;
+    }
+}
+
+/* ********************** */
+.packages-container {
+  padding: 20px;
+  text-align: center;
+  background-color: white;
+}
+
+.expertise-title {
+  font-size: 1.5em;
+  color: black;
+}
+
+.packages-header {
+  font-size: 2.5em;
+  color: black;
+}
+
+.packages-subtitle {
+  margin-bottom: 20px;
+  color: black;
+}
+
+.slider-container {
+  width: 100%;
+  padding: 20px 0;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Override slick slider styles */
+.slider-container .slick-track {
+  display: flex !important;
+  gap: 20px;
+}
+
+.slider-container .slick-slide {
+  padding: 10px;
+  height: inherit !important;
+}
+
+.slider-container .slick-slide > div {
+  height: 100%;
+}
+
+.card-wrapper {
+  padding: 5px;
+}
+
+.card {
+  width: 100%;
+  height: 100%;
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  display: flex !important;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 280px;
+}
+
+.image-container {
+  position: relative;
+  width: 100%;
+  height: 160px;
+}
+
+.card-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.rating {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  background: var(--blue);
+  color: var(--yellow);
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.card-content {
+  padding: 16px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  margin: 0;
+  font-size: 18px;
+  color: #333;
+  font-weight: 600;
+}
+
+.price {
+  margin: 8px 0 16px;
+  font-size: 20px;
+  color: var(--blue);
+  font-weight: 600;
+}
+
+.features {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 16px;
+  flex-grow: 1;
+}
+
+.feature {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  color: #666;
+  border: none;
+}
+
+.icon {
+  font-size: 1rem;
+}
+
+.view-details {
+  width: 100%;
+  background: var(--blue);
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 4px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: auto;
+}
+
+.view-details:hover {
+  background: #1e1e52;
+}
+
+/* Customize the slick dots */
+.slider-container .slick-dots li button:before {
+  font-size: 10px;
+  color: var(--blue);
+  opacity: 0.5;
+}
+
+.slider-container .slick-dots li.slick-active button:before {
+  opacity: 1;
+  color: var(--blue);
+}
+
+/* Customize slick arrows */
+.slider-container .slick-prev:before,
+.slider-container .slick-next:before {
+  color: var(--blue);
+  font-size: 24px;
+}
+
+.slider-container .slick-prev {
+  left: -25px;
+}
+
+.slider-container .slick-next {
+  right: -25px;
+}
+
+/* Responsive styles */
+@media (max-width: 1023px) {
+  .packages-header {
+      font-size: 2em;
+  }
+  
+  .slider-container .slick-prev {
+      left: -15px;
+  }
+  
+  .slider-container .slick-next {
+      right: -15px;
+  }
+}
+
+@media (max-width: 639px) {
+  .packages-header {
+      font-size: 1.5em;
+  }
+  
+  .packages-subtitle {
+      font-size: 0.9em;
+  }
+  
+  .slider-container {
+      padding: 10px 0;
+  }
+  
+  .card {
+      max-width: 90%;
+  }
+}

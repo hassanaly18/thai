@@ -70,7 +70,7 @@ import Image from 'next/image';
 
 const About = () => {
     return (
-        <div className="bg-blue-900 flex flex-col md:flex-row text-white p-8">
+        <div className="bg-[#312F93] flex flex-col md:flex-row text-white p-8">
             <div className="flex-1 mb-6 md:mb-0">
                 <h2 className="text-3xl font-bold mb-4">Who <span className="text-yellow-400">We Are</span></h2>
                 <p className="text-lg mb-4">
