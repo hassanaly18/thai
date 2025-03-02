@@ -2,6 +2,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "../components/Navbar";
 import Footer from "@/components/Footer";
+import WhatsAppButton from "@/components/WhatsappButton";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -17,6 +18,12 @@ export const metadata = {
     "Phuket island tours",
     "custom Thailand trips",
     "Singapore Malaysia Vietnam tours",
+    "Destination To Paradise",
+    "Paradise to Destination",
+    "Thailand travel agency",
+    "Thailand tour agency",
+    "Bangkok tour agency",
+    "Thailand vacation packages",
   ],
   openGraph: {
     title: "Destination To Paradise – Thailand's Best Travel Agency",
@@ -47,6 +54,7 @@ export default function RootLayout({ children }) {
         <main className="flex-grow">
           {children}
         </main>
+        <WhatsAppButton/>
         <Footer />
       </body>
     </html>
