@@ -1,5 +1,6 @@
 import About from "@/components/About";
 import Bar1 from "@/components/Bar1";
+import ContactForm from "@/components/ContactForm";
 import HeroSection from "@/components/HeroSection";
 import Packages from "@/components/Packages";
 import Services from "@/components/Services";
@@ -23,6 +24,7 @@ export default function Home() {
     {/* <Why/> */}
     <WhyUs/>
     <TestimonialSlider/>
+    <ContactForm/>
     {/* <Testimonial/> */}
     </>
   );

@@ -1,6 +1,5 @@
 import Link from "next/link";
 import Image from "next/image";
-import TourList from "@/components/TourList";
 import Journey from "@/components/Journey";
 import Mission from "@/components/Mission";
 import Future from "@/components/Future";
@@ -8,7 +7,7 @@ import Future from "@/components/Future";
 export default function Tours() {
 
   return (
-    <main className="min-h-screen bg-gray-100 mb-12">
+    <main className="min-h-screen bg-gray-100 mb-0">
       {/* Hero Section */}
       <div className="relative h-[60vh] w-full">
         <Image
@@ -48,13 +47,6 @@ export default function Tours() {
             </span>
             <div className="h-px w-16 bg-[#312F93]"></div>
           </div>
-          {/* <h3 style={{ color: "black" }} className="text-4xl font-bold mb-4">
-            Discover Our Travel Packages
-          </h3>
-          <p className="text-gray-600 max-w-3xl mx-auto">
-            Expertly Curated Journeys Designed to Inspire and Transform Your
-            Next Travel Adventure
-          </p> */}
         </div>
 
         <Journey/>

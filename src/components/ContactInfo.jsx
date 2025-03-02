@@ -15,11 +15,8 @@ const ContactInfo = () => {
           <p className="text-gray-600 text-sm mb-4">
             Call us today to start planning your next adventure
           </p>
-          <a href="tel:+1234567890" className="block text-indigo-800 font-semibold">
-            +123 456 7890
-          </a>
-          <a href="tel:+9876541210" className="block text-indigo-800 font-semibold">
-            +987 654 1210
+          <a href="tel:+66992262260" className="block text-indigo-800 font-semibold">
+           Mr.Moon +66992262260
           </a>
         </div>
 
@@ -50,7 +47,7 @@ const ContactInfo = () => {
             Visit our office for a personal consultation
           </p>
           <p className="text-indigo-800 font-semibold">
-            123 Adventure Lane, Traveltown
+            Bangkok, Thailand.
           </p>
         </div>
       </div>
