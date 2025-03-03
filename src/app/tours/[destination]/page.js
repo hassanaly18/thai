@@ -4,14 +4,25 @@ import TourDetail from "@/components/TourDetail";
 import Highlights from "@/components/Highlights";
 import { notFound } from 'next/navigation';
 
+// export async function generateMetadata({ params }) {
+//   const destination =  params.destination.charAt(0).toUpperCase() + params.destination.slice(1); // Capitalize
+
+//   return {
+//     title: `${destination} Tour Packages – Best ${destination} Travel Deals`,
+//     description: `Discover the best ${destination} tour packages with Destination To Paradise! Explore beaches, nightlife, and adventure. Book your trip now!`,
+//   };
+// }
+
 export async function generateMetadata({ params }) {
-  const destination = params.destination.charAt(0).toUpperCase() + params.destination.slice(1); // Capitalize
+  const { destination } = await Promise.resolve(params); // Await params properly
+  const capitalizedDestination = destination.charAt(0).toUpperCase() + destination.slice(1);
 
   return {
-    title: `${destination} Tour Packages – Best ${destination} Travel Deals`,
-    description: `Discover the best ${destination} tour packages with Destination To Paradise! Explore beaches, nightlife, and adventure. Book your trip now!`,
+    title: `${capitalizedDestination} Tour Packages – Best ${capitalizedDestination} Travel Deals`,
+    description: `Discover the best ${capitalizedDestination} tour packages with Destination To Paradise! Explore beaches, nightlife, and adventure. Book your trip now!`,
   };
 }
+
 
 // This data array stores all your tour information
 const toursData = [
