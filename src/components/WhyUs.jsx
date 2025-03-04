@@ -163,7 +163,7 @@ const WhyUs = memo(() => {
       <div className="w-full md:w-2/5 relative">
         <div className="relative rounded-full p-1 bg-[#312F93]">
           <img
-            src="/images/herobg.png"
+            src="/images/circle.png"
             alt="Tourist with camera exploring a new destination"
             className="rounded-full w-full aspect-square object-cover"
             loading="lazy"

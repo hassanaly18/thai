@@ -1,6 +1,5 @@
 import Link from "next/link";
 import Image from "next/image";
-import TourList from "@/components/TourList";
 import DestCards from "@/components/DestCards";
 
 export const metadata = {
@@ -10,7 +9,6 @@ export const metadata = {
 };
 
 export default function Destinations() {
-
   const destinationData = [
     {
       name: "Thailand",
@@ -49,13 +47,12 @@ export default function Destinations() {
       description: "Known for its forested volcanic mountains and iconic rice paddies, Bali is a spiritual and natural haven."
     },
   ];
-
   return (
-    <main className="pt-12 min-h-screen bg-gray-100 pb-12">
+    <main className="min-h-screen bg-gray-100 mb-12">
       {/* Hero Section */}
-      <div className="relative h-[60vh] ">
+      <div className="relative h-[60vh] w-full">
         <Image
-          src="/images/destbg.png"
+          src="/images/destibg.png"
           alt="Beautiful beach landscape"
           fill
           className="object-cover"
@@ -63,33 +60,43 @@ export default function Destinations() {
         />
 
         {/* Overlay */}
-        {/* <div className="absolute inset-0 bg-black/5" /> */}
+        <div className="absolute inset-0 bg-black/45" />
 
+        {/* Hero Content */}
+        <div className="absolute pt-16 inset-0 flex flex-col items-center justify-center text-white">
+          <h1 className="text-6xl font-bold mb-2">DESTINATIONS</h1>
+          <div className="flex items-center gap-2 text-lg">
+            <Link href="/" className="hover:underline">
+              Home
+            </Link>
+            <span>/</span>
+            <span>Destinations</span>
+          </div>
+        </div>
       </div>
 
       {/* Our Expertise Section */}
       <section
         style={{ marginBottom: "0", paddingBottom: "0" }}
-        className="max-w-7xl mx-auto px-4 py-10 text-center"
+        className="max-w-7xl mx-auto px-4 py-16 text-center"
       >
         <div className="mb-12">
           <div className="flex justify-center items-center gap-2 mb-4">
             <div className="h-px w-16 bg-[#312F93]"></div>
             <span className="text-l font-bold uppercase heading">
-              our worldly collection
+              contact us
             </span>
             <div className="h-px w-16 bg-[#312F93]"></div>
           </div>
           <h3 style={{ color: "black" }} className="text-4xl font-bold mb-4">
-          Explore Our Destinations
+            Get in Touch{" "}
           </h3>
           <p className="text-gray-600 max-w-3xl mx-auto">
-          Journey to the Heart of Paradise – Discover Your Perfect Getaway
+            We're Here to Help Plan Your Perfect Journey
           </p>
         </div>
 
         <DestCards destinations={destinationData}/>
-
       </section>
     </main>
   );
