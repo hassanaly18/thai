@@ -115,7 +115,7 @@ export const metadata = {
     type: "website",
     images: [
       {
-        url: "https://www.destinationtoparadise.com/og-image.jpg",
+        url: "https://www.destinationtoparadise.com/og-image.png",
         width: 1200,
         height: 630,
         alt: "Destination To Paradise – Thailand Tour Agency",
