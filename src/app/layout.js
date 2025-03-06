@@ -85,6 +85,7 @@ import "./globals.css";
 import Navbar from "../components/Navbar";
 import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
+import { icons } from "lucide-react";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -107,6 +108,9 @@ export const metadata = {
     "Bangkok tour agency",
     "Thailand vacation packages",
   ],
+  icons: {
+    icon: "/og-image1.png" ,
+  },
   openGraph: {
     title: "Destination To Paradise – Thailand's Best Travel Agency",
     description:
