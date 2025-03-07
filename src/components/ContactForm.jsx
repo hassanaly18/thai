@@ -192,7 +192,7 @@ const ContactForm = memo(() => {
         Send Us Your Queries
       </h2>
 
-      <div className="flex flex-col lg:flex-row gap-12">
+      <div className="conCard flex flex-col lg:flex-row gap-12">
         <div className="lg:w-1/2 relative">
           <AnimatedCard
             title="Explore Historic Europe"
@@ -217,7 +217,7 @@ const ContactForm = memo(() => {
         </div>
 
         {/* Contact Form */}
-        <div className="lg:w-1/2 z-10">
+        <div className="form lg:w-1/2 z-10">
           <div className="bg-[#312F93] rounded-lg shadow-lg p-8 text-white">
             <form onSubmit={handleSubmit} className="space-y-6">
               <fieldset className="space-y-4">

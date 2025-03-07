@@ -127,3 +127,244 @@ h2 {
 .backface-hidden {
   backface-visibility: hidden;
 }
+
+/* Responsiveness */
+
+@media (max-width: 768px) {
+  .ftext{
+    font-size: 1.8rem;
+  }
+  .fline{
+    width: 90vw !important;
+  }
+  .stext{
+    font-size: 1.7rem;
+  }
+  .sline{
+    width: 80vw !important;
+  }
+  .hero{
+    height: 70vh;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  .statNum{
+    font-size: 1.7rem;
+  }
+  .statText{
+    font-size: 0.8rem;
+  }
+  .quote{
+    margin-right: 0;
+    font-size: 1.6rem;
+    line-height: 1.7rem;
+  }
+  .bar1{
+    margin-top: 0;
+  }
+  .conCard{
+    margin-top: 4.5rem;
+  }
+  .form{
+    margin-top: 4rem;
+  }
+  .headerText{
+    font-size:xx-large;
+  }
+  .heroPic{
+    height: 50vh;
+  }
+  /* .heroImage{
+    height: 80vh;
+  } */
+}
+
+/* journey.module.css */
+
+@media (max-width: 640px) {
+  .stats-container {
+    position: relative !important;
+    margin-top: -2rem;
+    transform: translateY(0) !important;
+  }
+  
+  .image-container {
+    height: 30vh !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .stat-box h3 {
+    font-size: 1rem;
+  }
+  
+  .stat-box p {
+    font-size: 0.7rem;
+  }
+  
+  .content-container {
+    padding: 1rem !important;
+  }
+}
+
+/* Add smooth transitions for resizing */
+.main-container {
+  transition: all 0.3s ease-in-out;
+}
+
+/* Improve text readability on smaller screens */
+.journey-text {
+  max-width: 100%;
+  line-height: 1.6;
+}
+
+/* Enhance the shadow effect when hovering */
+.content-wrapper:hover {
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+/* Better positioning for the stats container on very small screens */
+@media (max-width: 360px) {
+  .stat-label {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 90px;
+    margin: 0 auto;
+  }
+}
+
+
+/* mission.module.css */
+
+/* Base styles */
+.mission-container {
+  transition: all 0.3s ease;
+}
+
+/* Responsive grid adjustments */
+@media (max-width: 640px) {
+  .mission-grid {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .mission-card {
+    padding: 1.5rem 1rem;
+  }
+  
+  .image-card {
+    height: 200px;
+  }
+}
+
+/* Very small screen adjustments */
+@media (max-width: 375px) {
+  .icon-container {
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+  
+  .icon-svg {
+    width: 1.75rem;
+    height: 1.75rem;
+  }
+  
+  .card-title {
+    font-size: 1rem;
+  }
+  
+  .card-description {
+    font-size: 0.75rem;
+    line-height: 1.4;
+  }
+}
+
+/* Enhance transitions and interactions */
+.mission-card:hover .icon-container {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+.image-card {
+  position: relative;
+  overflow: hidden;
+}
+
+.image-card::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.image-card:hover::after {
+  opacity: 1;
+}
+
+/* Improve card spacing for better readability */
+@media (max-width: 768px) {
+  .mission-content {
+    max-width: 100%;
+    padding: 0 0.5rem;
+  }
+}
+
+/* tourinfo.module.css */
+
+/* Responsive adjustments for header section */
+@media (max-width: 768px) {
+  .header-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+  
+  .rating-container {
+    margin-top: -0.5rem;
+  }
+}
+
+/* Smooth transitions */
+.title-rating-container {
+  transition: all 0.3s ease;
+}
+
+/* Better spacing for very small screens */
+@media (max-width: 375px) {
+  .tour-title {
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+  }
+  
+  .rating-stars {
+    transform: scale(0.9);
+    transform-origin: left;
+  }
+  
+  .tour-categories span {
+    padding: 0.25rem 0.75rem;
+    font-size: 0.7rem;
+  }
+}
+
+/* Enhance image loading effect */
+.tour-image {
+  transition: opacity 0.3s ease;
+}
+
+.tour-image-loading {
+  opacity: 0.7;
+}
+
+/* Improve focus states for accessibility */
+.category-tag:focus-visible {
+  outline: 2px solid #4F46E5;
+  outline-offset: 2px;
+}

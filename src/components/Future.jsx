@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 const Future = () => {
   return (
-    <div className="relative w-full mt-12 md:mt-16">
+    <div className="relative w-full mt-16 md:mt-16">
       {/* White background space above image */}
       <div className="bg-white w-full h-full md:h-48"></div>
       

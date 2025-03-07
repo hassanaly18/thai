@@ -64,13 +64,13 @@ import { motion } from "framer-motion";
 
 const HeroSection = () => {
   return (
-    <div className="relative h-screen w-full overflow-hidden">
+    <div className="hero relative h-screen w-full overflow-hidden">
       {/* Background Image Animation */}
       <motion.div
         initial={{ opacity: 0, scale: 1.1 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 1 }}
-        className="absolute inset-0 w-full h-full bg-cover bg-center"
+        className="heroImage absolute inset-0 w-full h-full bg-cover bg-center"
         style={{ backgroundImage: "url('/images/herobg.png')" }}
       />
 
@@ -86,7 +86,7 @@ const HeroSection = () => {
               className="inline-block"
             >
               <div className="relative">
-                <span className="relative z-10 inline-block text-white text-3xl md:text-3xl lg:text-4xl font-bold px-6 py-6">
+                <span className="ftext relative z-10 inline-block text-white text-3xl md:text-3xl lg:text-4xl font-bold px-6 py-6">
                   Welcome to Destination To Paradise
                 </span>
                 <motion.div
@@ -94,7 +94,7 @@ const HeroSection = () => {
                   animate={{ opacity: 1, x: 0 }}
                   transition={{ delay: 1.2, duration: 0.8 }}
                   style={{ width: "57%" }}
-                  className="absolute inset-0 bg-[#312F93] transform -skew-x-6 z-0"
+                  className="fline absolute inset-0 bg-[#312F93] transform -skew-x-6 z-0"
                 />
               </div>
             </motion.div>
@@ -107,7 +107,7 @@ const HeroSection = () => {
               className="inline-block"
             >
               <div className="relative -mt-2">
-                <span className="relative z-10 inline-block text-white text-2xl md:text-3xl lg:text-4xl font-bold px-6 py-5">
+                <span className="stext relative z-10 inline-block text-white text-2xl md:text-3xl lg:text-4xl font-bold px-6 py-5">
                   Where Wonders Await!
                 </span>
                 <motion.div
@@ -115,7 +115,7 @@ const HeroSection = () => {
                   animate={{ opacity: 1, x: 0 }}
                   transition={{ delay: 1.6, duration: 0.8 }}
                   style={{ width: "40%" }}
-                  className="absolute inset-0 bg-yellow-400 transform -skew-x-6 z-0 -skew-y-1"
+                  className="sline absolute inset-0 bg-yellow-400 transform -skew-x-6 z-0 -skew-y-1"
                 />
               </div>
             </motion.div>

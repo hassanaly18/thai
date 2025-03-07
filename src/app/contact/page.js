@@ -13,7 +13,7 @@ export default function Contact() {
   return (
     <main className="min-h-screen bg-gray-100 mb-12">
       {/* Hero Section */}
-      <div className="relative h-[60vh] w-full">
+      <div className="heroPic relative h-[60vh] w-full">
         <Image
           src="/images/contactbg.png"
           alt="Beautiful beach landscape"
@@ -27,7 +27,7 @@ export default function Contact() {
 
         {/* Hero Content */}
         <div className="absolute pt-16 inset-0 flex flex-col items-center justify-center text-white">
-          <h1 className="text-6xl font-bold mb-2">CONTACT</h1>
+          <h1 className="headerText text-6xl font-bold mb-2">CONTACT</h1>
           <div className="flex items-center gap-2 text-lg">
             <Link href="/" className="hover:underline">
               Home

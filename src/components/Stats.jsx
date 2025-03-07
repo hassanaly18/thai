@@ -133,10 +133,10 @@ const StatItem = ({ value, label, animation, shouldCount }) => {
 
   return (
     <motion.div ref={ref} className="text-center" {...animation}>
-      <p style={{ color: "var(--blue)" }} className="text-blue-600 text-3xl font-bold mb-2">
+      <p style={{ color: "var(--blue)" }} className="statNum text-blue-600 text-3xl font-bold mb-2">
         {shouldCount ? count + "+" : value} {/* Show number counting or static value */}
       </p>
-      <p style={{ color: "var(--blue)" }} className="text-gray-600 text-sm">
+      <p style={{ color: "var(--blue)" }} className="statText text-gray-600 text-sm">
         {label}
       </p>
     </motion.div>
@@ -183,7 +183,7 @@ const Stats = () => {
         </div>
 
         {/* Stats Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 max-w-4xl mx-auto">
+        <div className="grid grid-cols-4 md:grid-cols-4 gap-8 max-w-4xl mx-auto">
           <StatItem
             value="10K+"
             label="Satisfied Customers"

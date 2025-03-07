@@ -15,7 +15,7 @@ export default function Tours() {
   return (
     <main className="min-h-screen bg-gray-100 mb-0">
       {/* Hero Section */}
-      <div className="relative h-[60vh] w-full">
+      <div className="heroPic relative h-[60vh] w-full">
         <Image
           src="/images/aboutbg.png"
           alt="Beautiful beach landscape"
@@ -29,7 +29,7 @@ export default function Tours() {
 
         {/* Hero Content */}
         <div className="absolute pt-16 inset-0 flex flex-col items-center justify-center text-white">
-          <h1 className="text-6xl font-bold mb-2">About</h1>
+          <h1 className="headerText text-6xl font-bold mb-2">About</h1>
           <div className="flex items-center gap-2 text-lg">
             <Link href="/" className="hover:underline">
               Home

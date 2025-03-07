@@ -20,7 +20,7 @@ const About = () => {
                     Explore Now ➔
                 </button>
             </div>
-            <div className="flex-1 relative">
+            <div className="aboutImages flex-1 relative">
                 <div className="relative max-w-xl mx-auto">
                     <div className="relative flex items-center justify-center h-96">
                         <div className="w-1/2 absolute transform -translate-x-16 translate-y-14 transition-all duration-500 hover:-translate-y-2">
