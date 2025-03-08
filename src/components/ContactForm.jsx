@@ -197,20 +197,20 @@ const ContactForm = memo(() => {
           <AnimatedCard
             title="Explore Historic Europe"
             src="/images/beach1.jpg"
-            alt="Explore historic Europe"
+            alt="Destination To Paradise"
             description="Discover the rich history and breathtaking architecture of Europe's top cities with our guided tours."
           />
           <AnimatedCard
             title="Island Adventures Await"
             src="/images/beach2.jpg"
-            alt="Island adventure with crystal clear waters"
+            alt="Destination To Paradise"
             description="Dive into crystal clear waters, explore hidden caves and experience the local culture."
             customClass="absolute top-16 -left-4 transform -rotate-12"
           />
           <AnimatedCard
             title="Explore Thailand!"
             src="/images/mission1.png"
-            alt="Thai coastal view"
+            alt="Destination To Paradise"
             description="Immerse yourself in ancient Thai traditions and discover the warmth and hospitality of local communities."
             customClass="absolute bottom-16 -right-4 transform rotate-12"
           />

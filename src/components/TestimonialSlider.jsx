@@ -10,7 +10,7 @@ const testimonials = [
   {
     id: 1,
     name: "John Sans",
-    avatar: "/images/herobg.png",
+    avatar: "https://img.freepik.com/free-vector/blue-circle-with-white-user_78370-4707.jpg",
     content:
       "Incredible family trip with seamless planning and unique cultural experiences. Cant wait for more!",
     date: "14 November",
@@ -99,7 +99,7 @@ const TestimonialSlider = () => {
           <div key={testimonial.id} className="testimonial-card">
             <div className="testimonial-header-content">
               <img
-                src={testimonial.avatar}
+                src="https://img.freepik.com/free-vector/blue-circle-with-white-user_78370-4707.jpg"
                 alt={testimonial.name}
                 className="testimonial-avatar"
               />

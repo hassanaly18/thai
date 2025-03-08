@@ -59,7 +59,7 @@ export default function Destinations() {
       <div className="heroPic relative h-[60vh] w-full">
         <Image
           src="/images/destibg.png"
-          alt="Beautiful beach landscape"
+          alt="Destination To Paradise"
           fill
           className="object-cover"
           priority

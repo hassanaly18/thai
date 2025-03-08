@@ -11,7 +11,7 @@ const Future = () => {
       <div className="relative w-full h-64 md:h-80">
         <Image
           src="/images/future.png" // Update with your actual image path
-          alt="Ocean and rocks landscape"
+          alt="Destination To Paradise"
           fill
           className="object-cover brightness-90"
           priority

@@ -27,7 +27,7 @@ const About = () => {
                             <div className="aspect-square relative overflow-hidden shadow-xl">
                                 <Image 
                                     src="/images/beach1.jpg" 
-                                    alt="Travel Scene 1" 
+                                    alt="Destination To Paradise" 
                                     layout="fill"
                                     objectFit="cover"
                                     priority={false}
@@ -39,7 +39,7 @@ const About = () => {
                             <div className="aspect-square relative overflow-hidden shadow-xl">
                                 <Image 
                                     src="/images/bg1.jpg" 
-                                    alt="Travel Scene 2" 
+                                    alt="Destination To Paradise" 
                                     layout="fill"
                                     objectFit="cover"
                                     priority={false}
@@ -51,7 +51,7 @@ const About = () => {
                             <div className="aspect-square relative overflow-hidden shadow-xl">
                                 <Image 
                                     src="/images/bg2.jpg" 
-                                    alt="Travel Scene 3" 
+                                    alt="Destination To Paradise" 
                                     layout="fill"
                                     objectFit="cover"
                                     priority={false}

@@ -99,7 +99,7 @@ export default function Tours() {
       <div className="heroPic relative h-[60vh] w-full">
         <Image
           src="/images/tourbg.png"
-          alt="Beautiful beach landscape"
+          alt="Destination To Paradise"
           fill
           className="object-cover"
           priority

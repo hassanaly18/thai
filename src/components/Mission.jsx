@@ -25,14 +25,14 @@ const Mission = React.memo(() => {
         {/* First Image (Full width on mobile) */}
         <ImageCard 
           src="/images/mission1.png" 
-          alt="Beautiful island view from above"
+          alt="Destination To Paradise"
           order="sm:order-2 order-2" 
         />
 
         {/* Second Image (Full width on mobile) */}
         <ImageCard 
           src="/images/mission2.png" 
-          alt="Rock formation by the beach"
+          alt="Destination To Paradise"
           order="sm:order-3 order-4" 
         />
 

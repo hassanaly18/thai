@@ -82,11 +82,11 @@ const DestCards = memo(({ destinations }) => {
           className="flex justify-center"
         >
           <div className="w-full max-w-xs shadow-xl bg-white transition-shadow duration-300 rounded-lg overflow-hidden">
-            <Link href={`/destinations/${destination.slug}`} className="block">
+            <Link href={`/tours`} className="block">
               <div className="relative h-48 w-full">
                 <Image
                   src={destination.image}
-                  alt={`${destination.name} landscape`}
+                  alt={`Destination To Paradise`}
                   fill
                   className="object-cover transition-transform duration-500"
                   priority={false}

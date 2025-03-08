@@ -16,7 +16,7 @@ const TourList = memo(({ tours }) => {
           <div className="w-full sm:w-64 h-64 relative">
             <Image
               src={tour.image}
-              alt={`${tour.title} tour destination`}
+              alt={`Destination To Paradise`}
               fill
               className="object-cover"
               priority={false}

@@ -5,7 +5,8 @@ const TourDetail = ({
   description,
   departureLocation,
   destinationLocation,
-  services = []
+  services = [],
+  destinationImages
 }) => {
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
@@ -54,7 +55,7 @@ const TourDetail = ({
           <section>
             <h2 className="text-2xl font-bold text-black mb-6">Places You'll Explore</h2>
             <div className="grid grid-cols-2 gap-6">
-              {["/images/beach1.jpg", "/images/bg2.jpg"].map((src, index) => (
+              {destinationImages.map((src, index) => (
                 <div key={index} className="rounded-lg overflow-hidden">
                   <img src={src} alt={`Destination ${index + 1}`} className="w-full h-64 object-cover" />
                 </div>

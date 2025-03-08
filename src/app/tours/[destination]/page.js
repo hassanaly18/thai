@@ -4,14 +4,6 @@ import TourDetail from "@/components/TourDetail";
 import Highlights from "@/components/Highlights";
 import { notFound } from 'next/navigation';
 
-// export async function generateMetadata({ params }) {
-//   const destination =  params.destination.charAt(0).toUpperCase() + params.destination.slice(1); // Capitalize
-
-//   return {
-//     title: `${destination} Tour Packages – Best ${destination} Travel Deals`,
-//     description: `Discover the best ${destination} tour packages with Destination To Paradise! Explore beaches, nightlife, and adventure. Book your trip now!`,
-//   };
-// }
 
 export async function generateMetadata({ params }) {
   const { destination } = await Promise.resolve(params); // Await params properly
@@ -22,7 +14,6 @@ export async function generateMetadata({ params }) {
     description: `Discover the best ${capitalizedDestination} tour packages with Destination To Paradise! Explore beaches, nightlife, and adventure. Book your trip now!`,
   };
 }
-
 
 // This data array stores all your tour information
 const toursData = [
@@ -117,7 +108,7 @@ const toursData = [
     price: 95,
     departureLocation: "International Airport",
     destinationLocation: "Pattaya & Bangkok, Thailand",
-    images: ["/images/tour21.jpg", "/images/tour24.jpg", "/images/tour13.jpg"],
+    images: ["/images/tour21.jpg", "/images/tour24.jpg", "/images/tour13.jpg", "/images/tour23.jpg"],
     highlightsData: {
       mapImage: "/images/thailand-map.jpg",
       included: [
@@ -447,11 +438,13 @@ export default async function DestinationPage({ params }) {
         duration={tour.duration}
         season={tour.season}
         categories={tour.categories}
+        price={tour.price}
       />
       <TourDetail
         description={tour.description}
         departureLocation={tour.departureLocation}
         destinationLocation={tour.destinationLocation}
+        destinationImages={tour.images}
       />
       <Highlights {...tour.highlightsData} />
     </main>

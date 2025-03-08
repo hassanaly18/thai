@@ -80,7 +80,7 @@ const Journey = React.memo(() => {
         <div className="w-full md:w-1/3 relative h-[40vh] md:h-[60vh]">
           <Image
             src="/images/journey.png"
-            alt="Thailand landscape with mountains and water"
+            alt="Destination To Paradise"
             fill
             priority
             placeholder="blur"
