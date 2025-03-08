@@ -4,7 +4,7 @@ import "./globals.css";
 import Navbar from "../components/Navbar";
 import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
-import { icons } from "lucide-react";
+import { Analytics } from "@vercel/analytics/react"
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -41,7 +41,7 @@ export const metadata = {
         url: "https://www.destinationtoparadise.com/og-image1.png",
         width: 1200,
         height: 630,
-        alt: "Destination To Paradise – Thailand Tour Agency",
+        alt: "Destination To Paradise",
       },
     ],
   },
@@ -62,6 +62,7 @@ export default function RootLayout({ children }) {
         </main>
         <WhatsAppButton/>
         <Footer />
+        <Analytics/>
       </body>
     </html>
   );
