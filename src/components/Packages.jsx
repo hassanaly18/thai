@@ -100,10 +100,10 @@
 
 //     // Set initial value
 //     handleResize();
-    
+
 //     // Add event listener for window resize
 //     window.addEventListener('resize', handleResize);
-    
+
 //     // Clean up the event listener
 //     return () => window.removeEventListener('resize', handleResize);
 //   }, []);
@@ -200,7 +200,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./Packages.css";
-import Link from "next/link"; 
+import Link from "next/link";
 
 // const tourData = [
 //   {
@@ -309,25 +309,26 @@ const tourData = [
   },
 ];
 
-
 const Packages = () => {
   const [slidesToShow, setSlidesToShow] = useState(3);
 
-  const packageData = useMemo(() =>
-    tourData.map(tour => ({
-      id: tour.id,
-      title: tour.title,
-      price: tour.price,
-      image: tour.image,
-      rating: "★★★★★",
-      url: `/tours/${tour.slug}`,
-      features: [
-        { icon: "✈️", text: "Round trip economy class included" },
-        { icon: "🏨", text: "Hotel accommodation included" },
-        { icon: "🍽️", text: "Breakfast included" },
-      ],
-    })),
-  []);
+  const packageData = useMemo(
+    () =>
+      tourData.map((tour) => ({
+        id: tour.id,
+        title: tour.title,
+        price: tour.price,
+        image: tour.image,
+        rating: "★★★★★",
+        url: `/tours/${tour.slug}`,
+        features: [
+          { icon: "✈️", text: "Round trip economy class included" },
+          { icon: "🏨", text: "Hotel accommodation included" },
+          { icon: "🍽️", text: "Breakfast included" },
+        ],
+      })),
+    []
+  );
 
   const handleResize = useCallback(() => {
     let newSlides = 3;
@@ -355,8 +356,16 @@ const Packages = () => {
   };
 
   return (
-    <div className="packages-container">
-      <h1 className="packages-header">Discover Our Travel Packages</h1>
+    <div className="packages-container mb-6">
+      <div
+        className="flex justify-center items-center mt-6 gap-2 mb-2"
+      
+      >
+        <div className="h-px w-16 bg-[#312F93]"></div>
+        <span className="text-l font-bold uppercase heading">Our success</span>
+        <div className="h-px w-16 bg-[#312F93]"></div>
+      </div>
+      <h1 className="packages-header mb-8">Discover Our Travel Packages</h1>
       <Slider {...settings}>
         {packageData.map((pkg, index) => (
           <div key={pkg.id} className="card-wrapper">
@@ -371,7 +380,9 @@ const Packages = () => {
                   priority={index < 3}
                   loading={index >= 3 ? "lazy" : "eager"}
                 />
-                <div className="rating"><span>{pkg.rating}</span></div>
+                <div className="rating">
+                  <span>{pkg.rating}</span>
+                </div>
               </div>
               <div className="card-content">
                 <h3 className="title">{pkg.title}</h3>
@@ -384,7 +395,9 @@ const Packages = () => {
                     </div>
                   ))}
                 </div>
-                <Link href={pkg.url} className="view-details">VIEW DETAILS</Link>
+                <Link href={pkg.url} className="view-details">
+                  VIEW DETAILS
+                </Link>
               </div>
             </div>
           </div>
@@ -395,7 +408,6 @@ const Packages = () => {
 };
 
 export default Packages;
-
 
 // Optimized version of the Packages component
 // import React, { useEffect, useState, useMemo, useCallback } from "react";
