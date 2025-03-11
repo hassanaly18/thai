@@ -4,9 +4,9 @@ import Image from 'next/image';
 const About = () => {
     return (
         <div className="bg-[#312F93] flex flex-col md:flex-row text-white p-8">
-            <div className="flex-1 mb-6 md:mb-0">
+            <div className="flex-1 mb-6 ml-8 md:mb-0">
                 <h2 className="text-3xl font-bold mb-4">Who <span className="text-yellow-400">We Are</span></h2>
-                <p className="text-lg mb-4">
+                <p className="text-lg mb-4 ">
                     Welcome to Destination to Paradise, your expert in crafting bespoke travel experiences.
                     Our mission is to transform each trip into a unique paradise, tailored specifically
                     to your desires. We specialize in creating journeys that cater to individual tastes and
