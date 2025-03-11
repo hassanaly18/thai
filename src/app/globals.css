@@ -368,3 +368,30 @@ h2 {
   outline: 2px solid #4F46E5;
   outline-offset: 2px;
 }
+
+@media (width< 1280px){
+  .fline{
+    width: 71% !important;
+  }
+  .sline{
+    width: 47% !important;
+  }
+}
+
+@media (width< 1024px){
+  .fline{
+    width: 81% !important;
+  }
+  .sline{
+    width: 54% !important;
+  }
+}
+
+/* @media (width< 768px){
+  .fline{
+    width: 95% !important;
+  }
+  .sline{
+    width: 62% !important;
+  }
+} */
