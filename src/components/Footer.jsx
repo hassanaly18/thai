@@ -16,6 +16,8 @@ const Footer = () => {
               <p className="flex items-center gap-2">📞 +66992262260</p>
               <p className="flex items-center gap-2">
                 📧 info@destinationtoparadise.com <br />
+              </p>
+              <p className="flex items-center gap-2">
                 📧 contact@destinationtoparadise.com
               </p>
             </div>

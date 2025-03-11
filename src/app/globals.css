@@ -141,7 +141,7 @@ h2 {
     font-size: 1.7rem;
   }
   .sline{
-    width: 80vw !important;
+    width: 60% !important;
   }
   .hero{
     height: 70vh;
@@ -385,6 +385,58 @@ h2 {
   .sline{
     width: 54% !important;
   }
+}
+
+@media (max-width: 768px) {
+  .ftext{
+    font-size: 1.7rem;
+    line-height: 1.2;
+  }
+  .fline{
+    width: 90% !important;
+  }
+  .stext{
+    font-size: 1.7rem;
+    line-height: 1.2;
+  }
+  .sline{
+    width: 80% !important;
+  }
+  .hero{
+    height: 70vh;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  .statNum{
+    font-size: 1.7rem;
+  }
+  .statText{
+    font-size: 0.8rem;
+  }
+  .quote{
+    margin-right: 0;
+    font-size: 1.6rem;
+    line-height: 1.7rem;
+  }
+  .bar1{
+    margin-top: 0;
+  }
+  .conCard{
+    margin-top: 4.5rem;
+  }
+  .form{
+    margin-top: 4rem;
+  }
+  .headerText{
+    font-size:xx-large;
+  }
+  .heroPic{
+    height: 50vh;
+  }
+  /* .heroImage{
+    height: 80vh;
+  } */
 }
 
 /* @media (width< 768px){

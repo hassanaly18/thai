@@ -94,7 +94,7 @@ const HeroSection = () => {
                   animate={{ opacity: 1, x: 0 }}
                   transition={{ delay: 1.2, duration: 0.8 }}
                   style={{ width: "57%" }}
-                  className="fline absolute inset-0 bg-[#312F93] transform -skew-x-6 z-0"
+                  className="fline absolute inset-0 bg-[#312F93] transform -skew-x-2 z-0"
                 />
               </div>
             </motion.div>
