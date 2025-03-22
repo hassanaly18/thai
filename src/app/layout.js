@@ -87,9 +87,9 @@ export default function RootLayout({ children }) {
   "sameAs": [
     "https://www.facebook.com/share/1ECGicHA6H/?mibextid=wwXIfr",
     "https://www.instagram.com/paradise_destination_",
-    "https://www.tiktok.com/@paradisedestination.63",
-  ],
-   "aggregateRating": {
+    "https://www.tiktok.com/@paradisedestination.63"
+  ],  
+  "aggregateRating": {
     "@type": "AggregateRating",
     "ratingValue": "4.8",
     "reviewCount": "321"
