@@ -60,6 +60,17 @@ export default function RootLayout({ children }) {
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Destination To Paradise" />
+        <meta
+          property="og:image"
+          content="https://www.destinationtoparadise.com/og-image-new.png"
+        />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta
+          property="og:image:alt"
+          content="Destination To Paradise - Best Thailand Travel Agency"
+        />
+
         <link rel="icon" href="/favicon.ico" />
         <script
           type="application/ld+json"
