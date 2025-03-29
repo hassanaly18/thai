@@ -67,7 +67,7 @@ const ContactInfo = () => {
           <p className="text-gray-600 text-sm mb-4">
             Visit our office for a personal consultation
           </p>
-          <p className="text-indigo-800 font-semibold">Bangkok, Thailand.</p>
+          <a href="https://g.co/kgs/PVQAP5L" target="_blank"><p className="text-indigo-800 font-semibold">895 Phatthanakan 29 Alley, Khwaeng Suan Luang, Suan Luang, Bangkok 10250, Thailand.</p></a>
         </motion.div>
       </div>
 

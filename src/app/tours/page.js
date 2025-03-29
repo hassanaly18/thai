@@ -10,6 +10,7 @@ export const metadata = {
 };
 
 export default function Tours() {
+ 
   const tourData = [
     {
       id: 1,

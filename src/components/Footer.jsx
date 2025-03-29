@@ -1,18 +1,24 @@
-import React from 'react';
-import Link from 'next/link';
-import { FaFacebookF, FaInstagram, FaTiktok, FaWhatsapp } from 'react-icons/fa';
+import React from "react";
+import Link from "next/link";
+import { FaFacebookF, FaInstagram, FaTiktok, FaWhatsapp } from "react-icons/fa";
 
 const Footer = () => {
   return (
     <div style={{ backgroundColor: "var(--blue)" }} className="py-8 text-white">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          
           {/* Get in Touch Section */}
           <div className="space-y-4">
             <h2 className="text-xl font-bold">Get in Touch</h2>
             <div className="space-y-2">
-              <p className="flex items-center gap-2">🏠 Bangkok, Thailand.</p>
+              <a href="https://g.co/kgs/PVQAP5L" target="_blank" rel="noopener noreferrer">
+                <p className="flex items-center gap-2">
+                  🏠 895 Phatthanakan 29 Alley,
+                  <br /> Khwaeng Suan Luang, Suan <br /> Luang, Bangkok 10250,
+                  Thailand.
+                </p>
+              </a>
+              {/* <p className="flex items-center gap-2">🏠 Bangkok, Thailand.</p> */}
               <p className="flex items-center gap-2">📞 +66992262260</p>
               <p className="flex items-center gap-2">
                 📧 info@destinationtoparadise.com <br />
@@ -40,16 +46,32 @@ const Footer = () => {
             {/* Social Media Links */}
             <h2 className="text-xl font-bold">Follow Us</h2>
             <div className="flex gap-4 mb-4">
-              <Link href="https://www.facebook.com/share/1ECGicHA6H/?mibextid=wwXIfr" target="_blank" aria-label="Facebook">
+              <Link
+                href="https://www.facebook.com/share/1ECGicHA6H/?mibextid=wwXIfr"
+                target="_blank"
+                aria-label="Facebook"
+              >
                 <FaFacebookF className="text-2xl hover:text-gray-300" />
               </Link>
-              <Link href="https://www.instagram.com/paradise_destination_" target="_blank" aria-label="Instagram">
+              <Link
+                href="https://www.instagram.com/paradise_destination_"
+                target="_blank"
+                aria-label="Instagram"
+              >
                 <FaInstagram className="text-2xl hover:text-gray-300" />
               </Link>
-              <Link href="https://www.tiktok.com/@paradisedestination.63" target="_blank" aria-label="TikTok">
+              <Link
+                href="https://www.tiktok.com/@paradisedestination.63"
+                target="_blank"
+                aria-label="TikTok"
+              >
                 <FaTiktok className="text-2xl hover:text-gray-300" />
               </Link>
-              <Link href="https://whatsapp.com/channel/0029Vb7SiMkDZ4LjfRE0Gf0k" target="_blank" aria-label="WhatsApp Community">
+              <Link
+                href="https://whatsapp.com/channel/0029Vb7SiMkDZ4LjfRE0Gf0k"
+                target="_blank"
+                aria-label="WhatsApp Community"
+              >
                 <FaWhatsapp className="text-2xl hover:text-gray-300" />
               </Link>
             </div>
@@ -57,9 +79,9 @@ const Footer = () => {
             {/* Newsletter */}
             <h2 className="text-xl font-bold mt-8">Subscribe to Newsletter</h2>
             <div className="flex flex-col sm:flex-row gap-2 max-w-xs">
-              <input 
-                type="email" 
-                placeholder="Enter Email" 
+              <input
+                type="email"
+                placeholder="Enter Email"
                 className="flex-1 px-4 py-2 text-black rounded-l focus:outline-none"
               />
               <button className="bg-orange-500 px-6 py-2 rounded-r whitespace-nowrap">
