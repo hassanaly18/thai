@@ -70,6 +70,7 @@ export default function RootLayout({ children }) {
           property="og:image:alt"
           content="Destination To Paradise - Best Thailand Travel Agency"
         />
+        <meta name="google-site-verification" content="A0cRHaLom2R1oYWmSzkbwAgfmja0fmOK7_AfhyI14PM" />
 
         <link rel="icon" href="/favicon.ico" />
         <script
