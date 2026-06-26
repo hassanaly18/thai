@@ -284,7 +284,6 @@ export default Packages;
 //     <div className="packages-container mb-6">
 //       <div
 //         className="flex justify-center items-center mt-6 gap-2 mb-2"
-
 //       >
 //         <div className="h-px w-16 bg-[#312F93]"></div>
 //         <span className="text-l font-bold uppercase heading">Our success</span>
