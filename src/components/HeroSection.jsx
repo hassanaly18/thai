@@ -94,7 +94,7 @@ const HeroSection = () => {
                   animate={{ opacity: 1, x: 0 }}
                   transition={{ delay: 1.2, duration: 0.8 }}
                   style={{ width: "57%" }}
-                  className="fline absolute inset-0 bg-[#312F93] transform -skew-x-2 z-0"
+                  className="fline absolute inset-0 bg-[#2D8B3A] transform -skew-x-2 z-0"
                 />
               </div>
             </motion.div>
@@ -115,7 +115,7 @@ const HeroSection = () => {
                   animate={{ opacity: 1, x: 0 }}
                   transition={{ delay: 1.6, duration: 0.8 }}
                   style={{ width: "40%" }}
-                  className="sline absolute inset-0 bg-yellow-400 transform -skew-x-6 z-0 -skew-y-1"
+                  className="sline absolute inset-0 bg-[#E8873A] transform -skew-x-6 z-0 -skew-y-1"
                 />
               </div>
             </motion.div>
@@ -127,7 +127,7 @@ const HeroSection = () => {
               transition={{ delay: 1.8, duration: 0.8 }}
               className="mt-8"
             >
-              <button className="bg-[#312F93] text-white px-8 py-3 rounded-md text-lg font-semibold hover:bg-blue-800 transition-colors">
+              <button className="bg-[#2D8B3A] text-white px-8 py-3 rounded-md text-lg font-semibold hover:bg-[#1B5E20] transition-colors">
                 <Link href="/tours">Explore More</Link>
               </button>
             </motion.div>

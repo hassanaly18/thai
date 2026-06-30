@@ -72,6 +72,8 @@ export default function RootLayout({ children }) {
         />
         <meta name="google-site-verification" content="A0cRHaLom2R1oYWmSzkbwAgfmja0fmOK7_AfhyI14PM" />
 
+        
+
         <link rel="icon" href="/favicon.ico" />
         <script
           type="application/ld+json"

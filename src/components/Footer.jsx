@@ -120,7 +120,7 @@ const Footer = () => {
                 placeholder="Enter Email"
                 className="flex-1 px-4 py-2 text-black rounded-l focus:outline-none"
               />
-              <button className="bg-orange-500 px-6 py-2 rounded-r whitespace-nowrap">
+              <button className="bg-yellow px-6 py-2 rounded-r whitespace-nowrap">
                 Subscribe
               </button>
             </div>

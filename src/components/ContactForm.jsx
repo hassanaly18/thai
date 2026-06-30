@@ -218,7 +218,7 @@ const ContactForm = memo(() => {
 
         {/* Contact Form */}
         <div className="form lg:w-1/2 z-10">
-          <div className="bg-[#312F93] rounded-lg shadow-lg p-8 text-white">
+          <div className="bg-dark rounded-lg shadow-lg p-8 text-white">
             <form onSubmit={handleSubmit} className="space-y-6">
               <fieldset className="space-y-4">
                 <legend className="sr-only">Contact Form</legend>
@@ -229,7 +229,7 @@ const ContactForm = memo(() => {
               <div className="flex justify-end">
                 <button
                   type="submit"
-                  className="bg-[#F8A603] hover:bg-yellow-600 text-[#312F93] font-bold py-2 px-8 rounded-md transition duration-300"
+                  className="bg-yellow hover:bg-[#d4732e] text-white font-bold py-2 px-8 rounded-md transition duration-300"
                   disabled={isSending}
                 >
                   {isSending ? "Sending..." : "Submit"}

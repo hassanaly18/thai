@@ -16,7 +16,7 @@ const TourDetail = ({
           {/* Tour Detail Section */}
           <section className="bg-white rounded-lg shadow-lg p-8">
             <h2 className="text-xl font-bold text-black flex items-center gap-2 mb-4">
-              <span className="w-6 h-6 bg-[#312F93] rounded flex items-center justify-center">
+              <span className="w-6 h-6 bg-[#2D8B3A] rounded flex items-center justify-center">
                 <svg
                   className="w-4 h-4 text-white"
                   fill="none"
@@ -47,7 +47,7 @@ const TourDetail = ({
           {/* Our Services Section */}
           <section className="bg-white rounded-lg shadow-lg p-8">
             <h2 className="text-xl font-bold text-black flex items-center gap-2 mb-6">
-              <span className="w-6 h-6 bg-[#312F93] rounded flex items-center justify-center">
+              <span className="w-6 h-6 bg-[#2D8B3A] rounded flex items-center justify-center">
                 <svg
                   className="w-4 h-4 text-white"
                   fill="none"
@@ -110,7 +110,7 @@ const TourDetail = ({
                 "Trusted Local Guides",
               ].map((reason, index) => (
                 <li key={index}>
-                  <h3 className="font-semibold text-[#312F93] mb-2">
+                  <h3 className="font-semibold text-[#2D8B3A] mb-2">
                     {reason}
                   </h3>
                   <p className="text-gray-600 text-sm">
@@ -122,7 +122,7 @@ const TourDetail = ({
           </section>
 
           {/* Get a Question? */}
-          <section className="bg-[#312F93] rounded-lg p-6 text-white">
+          <section className="bg-[#2D8B3A] rounded-lg p-6 text-white">
             <h2 className="text-xl font-bold mb-4">Got a Question?</h2>
             <p className="mb-6 text-sm">
               We are happy to assist you. Contact us now.

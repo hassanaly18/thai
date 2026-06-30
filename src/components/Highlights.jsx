@@ -37,7 +37,7 @@ const Highlights = ({
               <ul className="space-y-3">
                 {included.map((item, index) => (
                   <li key={index} className="flex items-center gap-2">
-                    <div className="w-5 h-5 rounded-full bg-[#312F93] flex items-center justify-center">
+                    <div className="w-5 h-5 rounded-full bg-[#2D8B3A] flex items-center justify-center">
                       <Check className="w-3 h-3 text-white" title="Included" />
                     </div>
                     <span className="text-gray-700">{item}</span>
@@ -73,8 +73,8 @@ const Highlights = ({
               <ul className="space-y-3">
                 {highlights.map((highlight, index) => (
                   <li key={index} className="flex items-start gap-2">
-                    <div className="w-5 h-5 rounded-full bg-indigo-100 flex items-center justify-center mt-0.5">
-                      <div className="w-2 h-2 rounded-full bg-[#312F93]"></div>
+                    <div className="w-5 h-5 rounded-full bg-green-100 flex items-center justify-center mt-0.5">
+                      <div className="w-2 h-2 rounded-full bg-[#2D8B3A]"></div>
                     </div>
                     <span className="text-gray-700">{highlight}</span>
                   </li>

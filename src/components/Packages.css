@@ -156,7 +156,7 @@
   }
   
   .view-details:hover {
-    background: #1e1e52;
+    background: #1B5E20;
   }
 
   /* Add these new styles to your existing CSS */
@@ -349,7 +349,7 @@
 }
 
 .view-details:hover {
-    background: #1e1e52;
+    background: #1B5E20;
 }
 
 /* Updated slider styles */
@@ -538,7 +538,7 @@
 }
 
 .view-details:hover {
-  background: #1e1e52;
+  background: #1B5E20;
 }
 
 /* Customize the slick dots */

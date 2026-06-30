@@ -45,11 +45,11 @@ export default function Contact() {
       >
         <div className="mb-12">
           <div className="flex justify-center items-center gap-2 mb-4">
-            <div className="h-px w-16 bg-[#312F93]"></div>
+            <div className="h-px w-16 bg-[#2D8B3A]"></div>
             <span className="text-l font-bold uppercase heading">
               contact us
             </span>
-            <div className="h-px w-16 bg-[#312F93]"></div>
+            <div className="h-px w-16 bg-[#2D8B3A]"></div>
           </div>
           <h3 style={{ color: "black" }} className="text-4xl font-bold mb-4">
             Get in Touch{" "}

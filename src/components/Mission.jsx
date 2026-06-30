@@ -16,8 +16,8 @@ const Mission = React.memo(() => {
         <MissionCard
           title="OUR MISSION"
           description="To provide unforgettable travel experiences that inspire and enrich lives. We strive to connect travelers with unique destinations through personalized, responsible, and sustainable travel solutions that respect local cultures and ecosystems."
-          bgColor="bg-[#312F93]"
-          textColor="text-[#F8A603]"
+          bgColor="bg-[#2D8B3A]"
+          textColor="text-[#E8873A]"
           iconPath="M11 5.882V19.24a1.76 1.76 0 01-3.417.592l-2.147-6.15M18 13a3 3 0 100-6M5.436 13.683A4.001 4.001 0 017 6h1.832c4.1 0 7.625-1.234 9.168-3v14c-1.543-1.766-5.067-3-9.168-3H7a3.988 3.988 0 01-1.564-.317z"
           order="sm:order-1 order-1"
         />
@@ -40,8 +40,8 @@ const Mission = React.memo(() => {
         <MissionCard
           title="OUR VISION"
           description="To be a leader in the travel industry by consistently delivering exceptional service and pioneering new adventures. We envision a world where travel is a transformative force fostering understanding, and conservation of diverse cultures and habitats."
-          bgColor="bg-[#F8A603]"
-          textColor="text-[#312F93]"
+          bgColor="bg-[#E8873A]"
+          textColor="text-[#2D8B3A]"
           iconPath="M13 10V3L4 14h7v7l9-11h-7z"
           order="sm:order-4 order-3"
         />

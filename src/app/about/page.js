@@ -47,11 +47,11 @@ export default function Tours() {
       >
         <div className="mb-0">
           <div className="flex justify-center items-center gap-2 mb-0">
-            <div className="h-px w-16 bg-[#312F93]"></div>
+            <div className="h-px w-16 bg-[#2D8B3A]"></div>
             <span className="text-l font-bold uppercase heading">
               about us
             </span>
-            <div className="h-px w-16 bg-[#312F93]"></div>
+            <div className="h-px w-16 bg-[#2D8B3A]"></div>
           </div>
         </div>
 

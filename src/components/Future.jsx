@@ -22,8 +22,8 @@ const Future = () => {
       
       {/* Blue Container - Positioned to overlap between white space and image */}
       <div className="absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2 bottom-0 w-full max-w-4xl px-4 sm:px-6">
-        <div className="bg-indigo-800 text-white p-6 md:p-8 rounded-sm shadow-lg">
-          <h2 className="text-xl md:text-2xl font-bold text-yellow-500 mb-4">
+        <div className="bg-[#0D0D0D] text-white p-6 md:p-8 rounded-sm shadow-lg">
+          <h2 className="text-xl md:text-2xl font-bold text-[#5CC85A] mb-4">
             Preserving Our Planet for Future Travelers
           </h2>
           
@@ -34,17 +34,17 @@ const Future = () => {
           
           <div className="space-y-3 md:space-y-4 text-sm md:text-base">
             <div className="flex">
-              <span className="text-yellow-500 mr-2">→</span>
+              <span className="text-[#5CC85A] mr-2">→</span>
               <p><span className="font-semibold">Eco-Friendly Partnerships:</span> We carefully select our partners to ensure they uphold environmental conservation standards.</p>
             </div>
             
             <div className="flex">
-              <span className="text-yellow-500 mr-2">→</span>
+              <span className="text-[#5CC85A] mr-2">→</span>
               <p><span className="font-semibold">Supporting Local Communities:</span> We believe in giving back to the communities that make our travels meaningful.</p>
             </div>
             
             <div className="flex">
-              <span className="text-yellow-500 mr-2">→</span>
+              <span className="text-[#5CC85A] mr-2">→</span>
               <p><span className="font-semibold">Minimizing Environmental Impact:</span> We continuously work to reduce the environmental footprint of our travel operations.</p>
             </div>
           </div>

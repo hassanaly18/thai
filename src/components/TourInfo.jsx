@@ -128,7 +128,7 @@ const TourInfo = memo(({
   return (
     <section className="pt-16 md:pt-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 md:py-8">
       {/* Heading */}
-      <p className="mb-2 text-sm uppercase tracking-wider text-indigo-600 font-medium">
+      <p className="mb-2 text-sm uppercase tracking-wider text-[#2D8B3A] font-medium">
         Our Tour
       </p>
 
@@ -141,7 +141,7 @@ const TourInfo = memo(({
             {[...Array(5)].map((_, i) => (
               <svg
                 key={i}
-                className={`w-4 h-4 sm:w-5 sm:h-5 ${i < Math.floor(rating) ? "text-yellow-400" : "text-gray-300"}`}
+                className={`w-4 h-4 sm:w-5 sm:h-5 ${i < Math.floor(rating) ? "text-[#E8873A]" : "text-gray-300"}`}
                 fill="currentColor"
                 viewBox="0 0 20 20"
               >
@@ -176,15 +176,15 @@ const TourInfo = memo(({
 
             <div className="space-y-3 sm:space-y-4">
               <div className="flex items-center gap-2">
-                <Clock className="w-4 h-4 sm:w-5 sm:h-5 text-[#312F93]" />
+                <Clock className="w-4 h-4 sm:w-5 sm:h-5 text-[#2D8B3A]" />
                 <span className="text-sm sm:text-base text-black">{duration} Days</span>
               </div>
               <div className="flex items-center gap-2">
-                <Calendar className="w-4 h-4 sm:w-5 sm:h-5 text-[#312F93]" />
+                <Calendar className="w-4 h-4 sm:w-5 sm:h-5 text-[#2D8B3A]" />
                 <span className="text-sm sm:text-base text-black">{season}</span>
               </div>
               <div className="flex items-center gap-2">
-                <DollarSign className="w-4 h-4 sm:w-5 sm:h-5 text-[#312F93]" />
+                <DollarSign className="w-4 h-4 sm:w-5 sm:h-5 text-[#2D8B3A]" />
                 <span className="text-sm sm:text-base text-black">${price} per person</span>
               </div>
             </div>
@@ -194,7 +194,7 @@ const TourInfo = memo(({
               {categories.map((category, index) => (
                 <span
                   key={index}
-                  className="px-3 py-1 sm:px-4 sm:py-2 bg-[#312F93] text-white rounded-full text-xs sm:text-sm"
+                  className="px-3 py-1 sm:px-4 sm:py-2 bg-[#2D8B3A] text-white rounded-full text-xs sm:text-sm"
                 >
                   {category}
                 </span>

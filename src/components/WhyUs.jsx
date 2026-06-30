@@ -161,7 +161,7 @@ const WhyUs = memo(() => {
     >
       {/* Left Section with Image and Stats */}
       <div className="w-full md:w-2/5 relative">
-        <div className="relative rounded-full p-1 bg-[#312F93]">
+        <div className="relative rounded-full p-1 bg-[#2D8B3A]">
           <img
             src="/images/circle.png"
             alt="Tourist with camera exploring a new destination"
@@ -177,7 +177,7 @@ const WhyUs = memo(() => {
             >
               <span className="text-lg">{stat.icon}</span>
               <div className="flex flex-col">
-                <span className="font-bold text-[#312F93]">{stat.value}</span>
+                <span className="font-bold text-[#2D8B3A]">{stat.value}</span>
                 <span className="text-xs text-gray-600">{stat.label}</span>
               </div>
             </div>
@@ -188,7 +188,7 @@ const WhyUs = memo(() => {
       {/* Right Section with Benefits */}
       <div className="w-full md:w-3/5">
         <h2 className="text-2xl font-bold text-black mb-6">
-          Why Choose <span className="text-[#312F93]">Destination to Paradise</span> for Your Next Adventure?
+          Why Choose <span className="text-[#2D8B3A]">Destination to Paradise</span> for Your Next Adventure?
         </h2>
 
         <div className="space-y-6">
@@ -202,7 +202,7 @@ const WhyUs = memo(() => {
               className="flex gap-4"
             >
               <div className="flex-shrink-0">
-                <div className="w-6 h-6 rounded-full flex items-center justify-center bg-[#312F93]">
+                <div className="w-6 h-6 rounded-full flex items-center justify-center bg-[#2D8B3A]">
                   <svg
                     className="w-4 h-4 text-white"
                     viewBox="0 0 20 20"
@@ -221,7 +221,7 @@ const WhyUs = memo(() => {
                 <h3 className="font-semibold flex text-black items-center gap-2">
                   {benefit.title}
                   {benefit.isNew && (
-                    <span className="text-xs bg-blue-100 text-[#312F93] px-2 py-1 rounded">NEW!</span>
+                    <span className="text-xs bg-green-100 text-[#2D8B3A] px-2 py-1 rounded">NEW!</span>
                   )}
                 </h3>
                 <p className="text-gray-600 mt-1">{benefit.description}</p>

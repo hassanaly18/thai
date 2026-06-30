@@ -138,7 +138,7 @@ const Navbar = () => {
             <div className="flex-shrink-0">
               <Link href="/" className="flex items-center">
                 <img
-                  src="/images/Logo-Color Horizontal.png"
+                  src="/images/logo main.jpeg"
                   alt="Destination To Paradise"
                   className="h-12 w-auto object-contain"
                 />
@@ -152,14 +152,14 @@ const Navbar = () => {
               <Link
                 key={item.path}
                 href={item.path}
-                className={`relative group text-gray-700 hover:text-[#312F93] ${
-                  pathname === item.path ? "font-semibold text-[#312F93]" : ""
+                className={`relative group text-gray-700 hover:text-blue ${
+                  pathname === item.path ? "font-semibold text-blue" : ""
                 }`}
               >
                 {item.name}
                 {/* Underline Animation */}
                 <span
-                  className={`absolute left-0 -bottom-1 w-full h-[2px] bg-[#312F93] transition-transform duration-300 ${
+                  className={`absolute left-0 -bottom-1 w-full h-[2px] bg-blue transition-transform duration-300 ${
                     pathname === item.path ? "scale-x-100" : "scale-x-0 group-hover:scale-x-100"
                   }`}
                 ></span>
@@ -171,7 +171,7 @@ const Navbar = () => {
           <div className="md:hidden">
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="text-gray-700 hover:text-[#312F93] focus:outline-none"
+              className="text-gray-700 hover:text-blue focus:outline-none"
             >
               {isOpen ? <X size={24} /> : <Menu size={24} />}
             </button>
@@ -186,8 +186,8 @@ const Navbar = () => {
                 <Link
                   key={item.path}
                   href={item.path}
-                  className={`block px-3 py-2 text-gray-700 hover:text-[#312F93] hover:bg-gray-50 rounded-md ${
-                    pathname === item.path ? "font-semibold text-[#312F93]" : ""
+                  className={`block px-3 py-2 text-gray-700 hover:text-blue hover:bg-green-50 rounded-md ${
+                    pathname === item.path ? "font-semibold text-blue" : ""
                   }`}
                   onClick={() => setIsOpen(false)} // Close menu when item is clicked
                 >

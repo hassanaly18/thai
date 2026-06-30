@@ -158,9 +158,9 @@ const Stats = () => {
             animate={isInView ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 0.8, ease: "easeOut" }}
           >
-            <div className="h-px w-16 bg-[#312F93]"></div>
+            <div className="h-px w-16 bg-[#2D8B3A]"></div>
             <span className="text-l font-bold uppercase heading">Our success</span>
-            <div className="h-px w-16 bg-[#312F93]"></div>
+            <div className="h-px w-16 bg-[#2D8B3A]"></div>
           </motion.div>
 
           <motion.h2

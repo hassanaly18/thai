@@ -82,11 +82,11 @@ const TestimonialSlider = () => {
     <div className="testimonial-container">
       <div className="testimonial-header">
         <div className="flex justify-center items-center gap-2 mb-4">
-          <div className="h-px w-16 bg-[#312F93]"></div>
+          <div className="h-px w-16 bg-[#2D8B3A]"></div>
           <span className="text-l font-bold uppercase heading">
             testimonials
           </span>
-          <div className="h-px w-16 bg-[#312F93]"></div>
+          <div className="h-px w-16 bg-[#2D8B3A]"></div>
         </div>
         <h2 className="testimonial-title">What Our Travelers Say</h2>
         <p className="testimonial-subtitle">

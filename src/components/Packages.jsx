@@ -93,9 +93,9 @@ const Packages = () => {
   return (
     <div className="packages-container mb-6">
       <div className="flex justify-center items-center mt-6 gap-2 mb-2">
-        <div className="h-px w-16 bg-[#312F93]"></div>
+        <div className="h-px w-16 bg-[#2D8B3A]"></div>
         <span className="text-l font-bold uppercase heading">Our success</span>
-        <div className="h-px w-16 bg-[#312F93]"></div>
+        <div className="h-px w-16 bg-[#2D8B3A]"></div>
       </div>
       <h1 className="packages-header mb-8">Discover Our Travel Packages</h1>
       <Slider {...settings}>

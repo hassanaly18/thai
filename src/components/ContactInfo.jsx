@@ -17,14 +17,14 @@ const ContactInfo = () => {
           viewport={{ once: true }}
           className="relative bg-white rounded-lg shadow-md p-6 text-center"
         >
-          <div className="absolute -top-5 left-1/2 transform -translate-x-1/2 bg-indigo-800 rounded-full p-4">
+          <div className="absolute -top-5 left-1/2 transform -translate-x-1/2 bg-[#2D8B3A] rounded-full p-4">
             <Phone className="h-7 w-7 text-white" />
           </div>
           <h3 className="mt-6 text-black font-bold text-lg mb-2">Phone</h3>
           <p className="text-gray-600 text-sm mb-4">
             Call us today to start planning your next adventure
           </p>
-          <a href="tel:+66992262260" className="block text-indigo-800 font-semibold">
+          <a href="tel:+66992262260" className="block text-[#2D8B3A] font-semibold">
             Mr. Moon +66992262260
           </a>
         </motion.div>
@@ -37,17 +37,17 @@ const ContactInfo = () => {
           viewport={{ once: true }}
           className="relative bg-white rounded-lg shadow-md p-6 text-center"
         >
-          <div className="absolute -top-5 left-1/2 transform -translate-x-1/2 bg-indigo-800 rounded-full p-4">
+          <div className="absolute -top-5 left-1/2 transform -translate-x-1/2 bg-[#2D8B3A] rounded-full p-4">
             <Mail className="h-7 w-7 text-white" />
           </div>
           <h3 className="mt-6 font-bold text-black text-lg mb-2">Email</h3>
           <p className="text-gray-600 text-sm mb-4">
             Send us your travel inquiries and we'll craft your dream itinerary
           </p>
-          <a href="mailto:info@destinationtoparadise.com" className="block text-indigo-800 font-semibold">
+          <a href="mailto:info@destinationtoparadise.com" className="block text-[#2D8B3A] font-semibold">
             info@destinationtoparadise.com
           </a>
-          <a href="mailto:contact@destinationtoparadise.com" className="block text-indigo-800 font-semibold">
+          <a href="mailto:contact@destinationtoparadise.com" className="block text-[#2D8B3A] font-semibold">
             contact@destinationtoparadise.com
           </a>
         </motion.div>
@@ -60,14 +60,14 @@ const ContactInfo = () => {
           viewport={{ once: true }}
           className="relative bg-white rounded-lg shadow-md p-6 text-center"
         >
-          <div className="absolute -top-5 left-1/2 transform -translate-x-1/2 bg-indigo-800 rounded-full p-4">
+          <div className="absolute -top-5 left-1/2 transform -translate-x-1/2 bg-[#2D8B3A] rounded-full p-4">
             <MapPin className="h-7 w-7 text-white" />
           </div>
           <h3 className="mt-6 text-black font-bold text-lg mb-2">Location</h3>
           <p className="text-gray-600 text-sm mb-4">
             Visit our office for a personal consultation
           </p>
-          <a href="https://g.co/kgs/PVQAP5L" target="_blank"><p className="text-indigo-800 font-semibold">895 Phatthanakan 29 Alley, Khwaeng Suan Luang, Suan Luang, Bangkok 10250, Thailand.</p></a>
+          <a href="https://g.co/kgs/PVQAP5L" target="_blank"><p className="text-[#2D8B3A] font-semibold">895 Phatthanakan 29 Alley, Khwaeng Suan Luang, Suan Luang, Bangkok 10250, Thailand.</p></a>
         </motion.div>
       </div>
 

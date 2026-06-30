@@ -171,11 +171,11 @@ const Services = () => {
       {/* Header Section */}
       <div className="text-center mb-12">
         <div className="flex justify-center items-center gap-2 mb-4">
-          <div className="h-px w-16 bg-[#312F93]"></div>
+          <div className="h-px w-16 bg-[#2D8B3A]"></div>
           <span className="text-l font-bold uppercase heading">
             Our Expertise
           </span>
-          <div className="h-px w-16 bg-[#312F93]"></div>
+          <div className="h-px w-16 bg-[#2D8B3A]"></div>
         </div>
 
         <h2 className="text-3xl font-bold text-gray-900 mb-4">
@@ -195,7 +195,7 @@ const Services = () => {
             key={id}
             className="relative bg-white p-8 rounded-lg shadow-lg text-center pt-16"
           >
-            <div className="absolute -top-8 left-1/2 transform -translate-x-1/2 w-16 h-16 bg-indigo-800 rounded-full flex items-center justify-center shadow-md">
+            <div className="absolute -top-8 left-1/2 transform -translate-x-1/2 w-16 h-16 bg-[#2D8B3A] rounded-full flex items-center justify-center shadow-md">
               <svg
                 className="w-8 h-8 text-white"
                 fill="none"
@@ -205,7 +205,7 @@ const Services = () => {
                 <Icon />
               </svg>
             </div>
-            <h3 className="text-xl font-bold text-indigo-800 mb-4">{title}</h3>
+            <h3 className="text-xl font-bold text-[#2D8B3A] mb-4">{title}</h3>
             <p className="text-gray-600">{description}</p>
           </div>
         ))}

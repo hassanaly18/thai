@@ -27,21 +27,21 @@ const TourList = memo(({ tours }) => {
 
           {/* Content Container */}
           <div className="flex-1 p-6">
-            <h3 className="text-xl text-[#312F93] font-bold mb-3">
+            <h3 className="text-xl text-[#2D8B3A] font-bold mb-3">
               {tour.title}
             </h3>
             <p className="text-gray-600 max-w-xl">{tour.description}</p>
           </div>
 
           {/* Vertical Separator */}
-          <div className="hidden sm:block w-[2px] bg-[#312F93] my-6" />
+          <div className="hidden sm:block w-[2px] bg-[#2D8B3A] my-6" />
 
           {/* Price & Button Container (Fixed Alignment) */}
           <div className="flex flex-col justify-end p-6 min-w-[200px]">
             {/* Price Information */}
             <div className="w-full text-left mb-4">
               <p className="text-sm text-gray-500">As low as</p>
-              <p className="text-xl font-semibold text-[#3B2F93]">
+              <p className="text-xl font-semibold text-[#2D8B3A]">
                 ${tour.price.toLocaleString()}
               </p>
             </div>
@@ -49,7 +49,7 @@ const TourList = memo(({ tours }) => {
             {/* View Details Button */}
             <Link
               href={`/tours/${tour.slug}`}
-              className="bg-[#3B2F93] text-white px-6 py-2 hover:bg-[#2f2574] transition-colors text-center w-full"
+              className="bg-[#2D8B3A] text-white px-6 py-2 hover:bg-[#1B5E20] transition-colors text-center w-full"
             >
               View Details
             </Link>

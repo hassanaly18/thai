@@ -114,7 +114,7 @@ const Journey = React.memo(() => {
 
       {/* Stats Container */}
       <div className="absolute bottom-0 md:bottom-[20vh] left-0 md:left-[10%] shadow-lg transform translate-y-1/2 w-full md:w-2/3 lg:w-3/5 rounded-md overflow-hidden z-100">
-        <div className="grid grid-cols-3 bg-[#312F93] shadow-md">
+        <div className="grid grid-cols-3 bg-[#0D0D0D] shadow-md">
           <StatBox number="10K+" label="Satisfied Customers" />
           <StatBox number="500+" label="Destinations Covered" />
           <StatBox number="2500+" label="Tours Completed" border={false} />
@@ -127,10 +127,10 @@ const Journey = React.memo(() => {
 // Reusable Statistic Box Component (Prevents Unnecessary Re-renders)
 const StatBox = React.memo(({ number, label, border = true }) => (
   <div
-    className={`p-3 sm:p-4 md:p-6 z-100 text-center ${border ? "border-r border-indigo-700" : ""}`}
+    className={`p-3 sm:p-4 md:p-6 z-100 text-center ${border ? "border-r border-[#2D8B3A]" : ""}`}
     aria-label={label}
   >
-    <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-amber-400">{number}</h3>
+    <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-[#5CC85A]">{number}</h3>
     <p className="text-white text-xs sm:text-sm mt-1 truncate">{label}</p>
   </div>
 ));
