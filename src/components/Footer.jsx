@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/link";
-import { FaFacebookF, FaInstagram, FaTiktok, FaWhatsapp } from "react-icons/fa";
+import { FaFacebookF, FaInstagram, FaTiktok, FaWhatsapp, FaYoutube, FaLinkedin, FaPinterest, FaTripadvisor } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 
 const Footer = () => {
   return (
@@ -45,27 +46,62 @@ const Footer = () => {
           <div className="space-y-4">
             {/* Social Media Links */}
             <h2 className="text-xl font-bold">Follow Us</h2>
-            <div className="flex gap-4 mb-4">
+            <div className="flex flex-wrap gap-4 mb-4">
               <Link
-                href="https://www.facebook.com/share/1ECGicHA6H/?mibextid=wwXIfr"
+                href="https://www.facebook.com/ParadiseDestination.co"
                 target="_blank"
                 aria-label="Facebook"
               >
                 <FaFacebookF className="text-2xl hover:text-gray-300" />
               </Link>
               <Link
-                href="https://www.instagram.com/paradise_destination_"
+                href="https://www.instagram.com/paradisetodestination.co.ltd/"
                 target="_blank"
                 aria-label="Instagram"
               >
                 <FaInstagram className="text-2xl hover:text-gray-300" />
               </Link>
               <Link
-                href="https://www.tiktok.com/@paradisedestination.63"
+                href="https://www.tiktok.com/@paradisedestination.co"
                 target="_blank"
                 aria-label="TikTok"
               >
                 <FaTiktok className="text-2xl hover:text-gray-300" />
+              </Link>
+              <Link
+                href="https://www.youtube.com/@ParadiseDestinationBangkok"
+                target="_blank"
+                aria-label="YouTube"
+              >
+                <FaYoutube className="text-2xl hover:text-gray-300" />
+              </Link>
+              <Link
+                href="https://www.linkedin.com/in/paradisedestinationco/"
+                target="_blank"
+                aria-label="LinkedIn"
+              >
+                <FaLinkedin className="text-2xl hover:text-gray-300" />
+              </Link>
+              <Link
+                href="https://www.pinterest.com/paradised69/"
+                target="_blank"
+                aria-label="Pinterest"
+              >
+                <FaPinterest className="text-2xl hover:text-gray-300" />
+              </Link>
+              <Link
+                href="https://x.com/Paradisedbkk"
+                target="_blank"
+                aria-label="X (Twitter)"
+              >
+                <FaXTwitter className="text-2xl hover:text-gray-300" />
+              </Link>
+              <Link
+                href="https://www.tripadvisor.com/Profile/Paradisedestination1"
+                target="_blank"
+                aria-label="TripAdvisor"
+              >
+                <FaTripadvisor className="text-2xl hover:text-gray-300" />
               </Link>
               <Link
                 href="https://whatsapp.com/channel/0029Vb7SiMkDZ4LjfRE0Gf0k"

@@ -97,9 +97,15 @@ export default function RootLayout({ children }) {
     "contactType": "customer service"
   },
   "sameAs": [
-    "https://www.facebook.com/share/1ECGicHA6H/?mibextid=wwXIfr",
-    "https://www.instagram.com/paradise_destination_",
-    "https://www.tiktok.com/@paradisedestination.63"
+    "https://www.facebook.com/ParadiseDestination.co",
+    "https://www.instagram.com/paradisetodestination.co.ltd/",
+    "https://www.tiktok.com/@paradisedestination.co",
+    "https://whatsapp.com/channel/0029Vb7SiMkDZ4LjfRE0Gf0k",
+    "https://www.youtube.com/@ParadiseDestinationBangkok",
+    "https://www.linkedin.com/in/paradisedestinationco/",
+    "https://www.pinterest.com/paradised69/",
+    "https://x.com/Paradisedbkk",
+    "https://www.tripadvisor.com/Profile/Paradisedestination1"
   ],  
   "aggregateRating": {
     "@type": "AggregateRating",
